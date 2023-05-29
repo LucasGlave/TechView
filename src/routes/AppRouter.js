@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import Procesador from '../componentes/Procesador/Procesador';
 import Placa from '../componentes/Placa/Placa';
 import Accesorio from '../componentes/Accesorio/Accesorio';
@@ -16,6 +16,7 @@ import AMDrx6900XT from '../componentes/Placa/AMDrx6900XT/AMDrx6900XT';
 import AMDrx6800XT from '../componentes/Placa/AMDrx6800XT/AMDrx6800XT';
 import { Pregunta6800XT } from '../componentes/Placa/AMDrx6800XT/AMDrx6800XT';
 import AMDrx6800 from '../componentes/Placa/AMDrx6800/AMDrx6800';
+
 
 
 export const AppRouter = () => {
