@@ -61,7 +61,7 @@ export const Placa = () => {
                 <div className='card'>
                     <div className='card__content'>
                             <h6>AMD Radeon RX 6800 XT</h6>
-                            <Link to="/AMDrx6800XT"><Button variant="outline-primary"><h1>ENTRAR</h1></Button></Link>
+                            <Link to="/placas-de-video/rx-6800-xt"><Button variant="outline-primary"><h1>ENTRAR</h1></Button></Link>
                     </div>
                 </div>
 

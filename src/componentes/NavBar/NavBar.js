@@ -11,7 +11,7 @@ export const NavBar = () => {
     <div className='Header'>
       <Navbar expand="lg" variant="dark" bg="dark">
         <Container>
-        <Link to="/"><Navbar.Brand href="#"><img src="./img/logo2.png" alt='logo' width="270" height="220"></img></Navbar.Brand></Link>
+        <Link to="/"><img src="./img/logo2.png" alt='logo' width="270" height="220"></img></Link>
           <Form className="d-flex">
               <Form.Control
                 type="search"

@@ -37,7 +37,7 @@ export const ItemListContainer = () => {
                             </div>
                         </div>
                     </Link>
-                    <Link to="/placa">
+                    <Link to="/placas-de-video">
                         <div className='content-show'>
                             <div>
                                 <img src='./img/placa.jpg' alt='notebook'/>

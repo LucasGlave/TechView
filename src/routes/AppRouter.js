@@ -26,7 +26,7 @@ export const AppRouter = () => {
             <Routes>
                 <Route path='/' element={<ItemListContainer/>}/>
                 <Route path='/procesador' element={<Procesador/>}/>
-                <Route path='/placa' element={<Placa/>}/>
+                <Route path='/placas-de-video' element={<Placa/>}/>
                 <Route path='/accesorio' element={<Accesorio/>}/>
                 <Route path='/notebook' element={<Notebook/>}/>
                 <Route path='/Nvidia3090' element={<Nvidia3090/>}/>
@@ -37,8 +37,8 @@ export const AppRouter = () => {
                 <Route path='/Nvidia1650Super' element={<Nvidia1650Super/>}/>
                 <Route path='/AMDrx6900XT' element={<AMDrx6900XT/>}/>
                 <Route path='/AMDrx6800' element={<AMDrx6800/>}/>
-                <Route path='/AMDrx6800XT/*' element={<AMDrx6800XT/>}/>
-                <Route path="/placas-de-video/rx-6800-xt" element={<AMDrx6800XT />} />
+                {/* <Route path='/AMDrx6800XT/*' element={<AMDrx6800XT/>}/> */}
+                <Route path="/placas-de-video/rx-6800-xt/*" element={<AMDrx6800XT />} />
                 <Route path="/placas-de-video/rx-6800-xt/:preguntaId" element={<Pregunta6800XT />} />
                 <Route path='*' element={<Navigate to= "/"/>}/>
             </Routes>
