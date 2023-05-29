@@ -13,6 +13,12 @@
   }
 }
 
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:wght@100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@800&family=Vina+Sans&display=swap');
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
