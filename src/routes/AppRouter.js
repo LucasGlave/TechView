@@ -39,6 +39,7 @@ export const AppRouter = () => {
                 <Route path='/AMDrx6800XT/*' element={<AMDrx6800XT/>}/>
                 <Route path="/placas-de-video/rx-6800-xt" element={<AMDrx6800XT />} />
                 <Route path="/placas-de-video/rx-6800-xt/:preguntaId" element={<Pregunta6800XT />} />
+                <Route path='*' element={<Navigate to= "/"/>}/>
             </Routes>
             <Footer/>
         </BrowserRouter>
