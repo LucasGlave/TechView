@@ -6,12 +6,12 @@ import Notebook from '../componentes/Notebook/Notebook';
 import ItemListContainer from '../componentes/ItemListContainer/ItemListContainer';
 import NavBar from '../componentes/NavBar/NavBar'; 
 import Footer from '../componentes/Footer/Footer';
-import Nvidia3090 from '../componentes/Placa/Nvidia3090/Nvidia3090';
-import Nvidia3080 from '../componentes/Placa/Nvidia3080/Nvidia3080';
-import Nvidia3070 from '../componentes/Placa/Nvidia3070/Nvidia3070';
-import Nvidia3060 from '../componentes/Placa/Nvidia3060/Nvidia3060';
-import Nvidia1660Ti from '../componentes/Placa/Nvidia1660Ti/Nvidia1660Ti';
 
+import Nvidia3090, { Pregunta3090 } from '../componentes/Placa/Nvidia3090/Nvidia3090';
+import Nvidia3080, { Pregunta3080 } from '../componentes/Placa/Nvidia3080/Nvidia3080';
+import Nvidia3070, { Pregunta3070 } from '../componentes/Placa/Nvidia3070/Nvidia3070';
+import Nvidia3060, { Pregunta3060 } from '../componentes/Placa/Nvidia3060/Nvidia3060';
+import Nvidia1660Ti, { Pregunta1660Ti } from '../componentes/Placa/Nvidia1660Ti/Nvidia1660Ti';
 import Nvidia1650Super, { Pregunta1650Super } from '../componentes/Placa/Nvidia1650Super/Nvidia1650Super';
 import AMDrx6900XT, { Pregunta6900XT } from '../componentes/Placa/AMDrx6900XT/AMDrx6900XT';
 import AMDrx6800XT, { Pregunta6800XT } from '../componentes/Placa/AMDrx6800XT/AMDrx6800XT';
@@ -29,11 +29,21 @@ export const AppRouter = () => {
                 <Route path='/placas-de-video' element={<Placa/>}/>
                 <Route path='/accesorio' element={<Accesorio/>}/>
                 <Route path='/notebook' element={<Notebook/>}/>
-                <Route path='/Nvidia3090' element={<Nvidia3090/>}/>
-                <Route path='/Nvidia3080' element={<Nvidia3080/>}/>
-                <Route path='/Nvidia3070' element={<Nvidia3070/>}/>
-                <Route path='/Nvidia3060' element={<Nvidia3060/>}/>
-                <Route path='/Nvidia1660Ti' element={<Nvidia1660Ti/>}/>
+                {/* <Route path='/Nvidia3090' element={<Nvidia3090/>}/> */}
+                <Route path="/placas-de-video/nvidia-3090/*" element={<Nvidia3090 />} />
+                <Route path="/placas-de-video/nvidia-3090/:preguntaId" element={<Pregunta3090 />} />
+                {/* <Route path='/Nvidia3080' element={<Nvidia3080/>}/> */}
+                <Route path="/placas-de-video/nvidia-3080/*" element={<Nvidia3080 />} />
+                <Route path="/placas-de-video/nvidia-3080/:preguntaId" element={<Pregunta3080 />} />
+                {/* <Route path='/Nvidia3070' element={<Nvidia3070/>}/> */}
+                <Route path="/placas-de-video/nvidia-3070/*" element={<Nvidia3070 />} />
+                <Route path="/placas-de-video/nvidia-3070/:preguntaId" element={<Pregunta3070 />} />
+                {/* <Route path='/Nvidia3060' element={<Nvidia3060/>}/> */}
+                <Route path="/placas-de-video/nvidia-3060/*" element={<Nvidia3060 />} />
+                <Route path="/placas-de-video/nvidia-3060/:preguntaId" element={<Pregunta3060 />} />
+                {/* <Route path='/Nvidia1660Ti' element={<Nvidia1660Ti/>}/> */}
+                <Route path="/placas-de-video/nvidia-1660-ti/*" element={<Nvidia1660Ti />} />
+                <Route path="/placas-de-video/nvidia-1660-ti/:preguntaId" element={<Pregunta1660Ti />} />
                 {/* <Route path='/Nvidia1650Super' element={<Nvidia1650Super/>}/> */}
                 <Route path="/placas-de-video/nvidia-1650-super/*" element={<Nvidia1650Super />} />
                 <Route path="/placas-de-video/nvidia-1650-super/:preguntaId" element={<Pregunta1650Super />} />
@@ -42,7 +52,7 @@ export const AppRouter = () => {
                 <Route path="/placas-de-video/rx-6900-xt/:preguntaId" element={<Pregunta6900XT />} />
                 {/* <Route path='/AMDrx6800' element={<AMDrx6800/>}/> */}
                 <Route path="/placas-de-video/rx-6800/*" element={<AMDrx6800 />} />
-                <Route path="/placas-de-video/rx-6800-xt/:preguntaId" element={<Pregunta6800 />} />
+                <Route path="/placas-de-video/rx-6800/:preguntaId" element={<Pregunta6800 />} />
                 {/* <Route path='/AMDrx6800XT/*' element={<AMDrx6800XT/>}/> */}
                 <Route path="/placas-de-video/rx-6800-xt/*" element={<AMDrx6800XT />} />
                 <Route path="/placas-de-video/rx-6800-xt/:preguntaId" element={<Pregunta6800XT />} />

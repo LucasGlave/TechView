@@ -27,7 +27,7 @@ export const Placa = () => {
                         {/* <img src="./img/Placas/3080.jpg" alt='logo' width="180" height="150"/> */}
                         
                             <h6>NVIDIA GeForce RTX 3080</h6>
-                            <Link to="/placas-de-video/Nvidia3080"><button>
+                            <Link to="/placas-de-video/nvidia-3080"><button>
                                 <span></span>
                                 <span></span>
                                 <span></span>
@@ -42,7 +42,7 @@ export const Placa = () => {
                         {/* <img src="./img/Placas/3070.jpg" alt='logo' width="180" height="150"/> */}
                         
                             <h6>NVIDIA GeForce RTX 3070</h6>
-                            <Link to="/placas-de-video/Nvidia3070"><button>
+                            <Link to="/placas-de-video/nvidia-3070"><button>
                                 <span></span>
                                 <span></span>
                                 <span></span>
@@ -57,7 +57,7 @@ export const Placa = () => {
                         {/* <img src="./img/Placas/3060ti.jpg" alt='logo'/> */}
                         
                             <h6>NVIDIA GeForce RTX 3060 Ti</h6>
-                            <Link to="/placas-de-video/Nvidia3060"><button>
+                            <Link to="/placas-de-video/nvidia-3060"><button>
                                 <span></span>
                                 <span></span>
                                 <span></span>
@@ -116,7 +116,7 @@ export const Placa = () => {
                         {/* <img src="./img/logo2.png" alt='logo' width="180" height="150"/> */}
                         
                             <h6>NVIDIA GeForce GTX 1660 Ti</h6>
-                            <Link to="/placas-de-video/Nvidia1660Ti"><button>
+                            <Link to="/placas-de-video/nvidia-1660-ti"><button>
                                 <span></span>
                                 <span></span>
                                 <span></span>

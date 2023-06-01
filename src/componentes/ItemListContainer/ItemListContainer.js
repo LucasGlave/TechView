@@ -14,6 +14,11 @@ export const ItemListContainer = () => {
                 </div>
                 <div className='inicioDer'>
                     <img src='./img/notebookInicio.png' alt='notebookInicio' width={800} height={570}/>
+                    {/* <div className="animacion">
+                        <div className="loader"></div>
+                        <div className="loader"></div>
+                        <div className="loader"></div>
+                    </div> */}
                 </div>
             </div>
             <div className='categorias'>

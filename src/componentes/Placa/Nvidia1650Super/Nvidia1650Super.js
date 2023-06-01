@@ -4,53 +4,53 @@ import { Route, Link, useParams, Routes } from 'react-router-dom';
 const preguntas1650Super = [
     {
       id: 'pregunta1',
-      titulo: '¿Cuáles son las especificaciones clave de la AMD Radeon RX 6800 XT?',
-      respuesta: ' La AMD Radeon RX 6800 XT cuenta con 72 unidades de cómputo, 16 GB de memoria GDDR6, una velocidad de reloj base de 2015 MHz y una velocidad de reloj de impulso de 2250 MHz.',
+      titulo: '¿Cuáles son las especificaciones clave de la Nvidia GeForce GTX 1650 Super?',
+      respuesta: 'La Nvidia GeForce GTX 1650 Super es una tarjeta gráfica de gama media que cuenta con 1280 núcleos CUDA y una velocidad de reloj base de 1530 MHz. Esta tarjeta viene con 4 GB de memoria GDDR6 y un ancho de banda de memoria de 192 GB/s, lo que la hace adecuada para juegos y tareas computacionales de nivel medio.',
     },
     {
       id: 'pregunta2',
-      titulo: '¿Qué tipo de rendimiento puedo esperar de la AMD Radeon RX 6800 XT en juegos?',
-      respuesta: ' La RX 6800 XT ofrece un rendimiento excelente en juegos de alta demanda, proporcionando un alto número de cuadros por segundo y una experiencia de juego fluida en resoluciones 1440p y 4K.',
+      titulo: '¿Cómo se compara el rendimiento de la Nvidia GeForce GTX 1650 Super con otras tarjetas gráficas de su segmento?',
+      respuesta: 'La Nvidia GeForce GTX 1650 Super ofrece un buen rendimiento en juegos de nivel medio y es capaz de ejecutar la mayoría de los juegos modernos a resoluciones 1080p con configuraciones gráficas decentes. Si bien no es la tarjeta más potente en su segmento, proporciona un equilibrio sólido entre rendimiento y precio.',
     },
     {
       id: 'pregunta3',
-      titulo: '¿Es compatible la AMD Radeon RX 6800 XT con la tecnología de trazado de rayos (ray tracing)?',
-      respuesta: 'Sí, la RX 6800 XT es compatible con la tecnología de trazado de rayos. Puede ofrecer efectos visuales mejorados y una iluminación más realista en juegos compatibles con ray tracing.',
+      titulo: '¿Es compatible la Nvidia GeForce GTX 1650 Super con la tecnología de trazado de rayos (ray tracing)?',
+      respuesta: 'No, la Nvidia GeForce GTX 1650 Super no es compatible con la tecnología de trazado de rayos. Esta tarjeta no cuenta con los núcleos RT necesarios para realizar el trazado de rayos en tiempo real. Sin embargo, sigue siendo capaz de ofrecer un buen rendimiento en juegos sin ray tracing.',
     },
     {
       id: 'pregunta4',
-      titulo: ' ¿Cuántos monitores puedo conectar a la AMD Radeon RX 6800 XT?',
-      respuesta: 'La RX 6800 XT admite hasta cuatro monitores simultáneamente. Puedes conectarlos utilizando los puertos DisplayPort 1.4 y HDMI 2.1.',
+      titulo: '¿Cuántos monitores puedo conectar a la Nvidia GeForce GTX 1650 Super?',
+      respuesta: 'La Nvidia GeForce GTX 1650 Super es capaz de admitir hasta tres monitores simultáneamente. Dispone de múltiples puertos de visualización, incluidos DisplayPort, HDMI y DVI, lo que permite una conexión versátil y configuraciones de múltiples pantallas.',
     },
     {
       id: 'pregunta5',
-      titulo: ' ¿Requiere la AMD Radeon RX 6800 XT una fuente de alimentación especial?',
-      respuesta: 'Sí, la RX 6800 XT requiere una fuente de alimentación sólida. Se recomienda una fuente de alimentación de al menos 750 vatios con conectores de alimentación PCIe de 8 pines y 6 pines.',
+      titulo: '¿Cuál es la potencia de alimentación requerida para la Nvidia GeForce GTX 1650 Super?',
+      respuesta: 'La Nvidia GeForce GTX 1650 Super tiene un consumo de energía bastante bajo en comparación con tarjetas gráficas más potentes. Se recomienda una fuente de alimentación de al menos 350 vatios de calidad para alimentar adecuadamente la tarjeta. Además, esta tarjeta no requiere conectores de alimentación PCIe adicionales, lo que facilita su instalación en sistemas con fuentes de alimentación limitadas.',
     },
     {
       id: 'pregunta6',
-      titulo: ' ¿Es compatible la AMD Radeon RX 6800 XT con tecnologías de sincronización como FreeSync o G-Sync?',
-      respuesta: 'La RX 6800 XT es compatible con FreeSync, la tecnología de sincronización adaptable de AMD. Sin embargo, no es compatible oficialmente con G-Sync, la tecnología de sincronización de NVIDIA, aunque algunos usuarios han informado que puede funcionar de manera adecuada.',
+      titulo: '¿Es compatible la Nvidia GeForce GTX 1650 Super con tecnologías de sincronización como G-Sync?',
+      respuesta: 'Sí, la Nvidia GeForce GTX 1650 Super es compatible con la tecnología G-Sync de NVIDIA. G-Sync sincroniza la frecuencia de actualización del monitor con la velocidad de fotogramas generada por la tarjeta gráfica, eliminando el desgarro de pantalla y proporcionando una experiencia de juego más suave.',
     },
     {
       id: 'pregunta7',
-      titulo: '¿Cuál es la temperatura de funcionamiento normal de la AMD Radeon RX 6800 XT?',
-      respuesta: 'La temperatura de funcionamiento normal de la RX 6800 XT puede variar según el diseño del fabricante y las condiciones ambientales, pero típicamente se mantiene entre los 60 y 80 grados Celsius bajo carga intensa.',
+      titulo: '¿Cuál es la temperatura de funcionamiento normal de la Nvidia GeForce GTX 1650 Super?',
+      respuesta: 'La temperatura de funcionamiento normal de la Nvidia GeForce GTX 1650 Super puede variar según el diseño específico del fabricante y las condiciones ambientales. En general, se espera que la tarjeta gráfica opere dentro de un rango de temperatura seguro, alrededor de los 60-70 grados Celsius bajo cargas intensas. Es importante asegurarse de que la caja de la computadora tenga una buena ventilación para mantener las temperaturas bajo control.',
     },
     {
       id: 'pregunta8',
-      titulo: ' ¿Necesito actualizar mi fuente de alimentación para usar la AMD Radeon RX 6800 XT?',
-      respuesta: 'Si tu fuente de alimentación actual no cumple con los requisitos recomendados, es posible que necesites actualizarla para alimentar adecuadamente la RX 6800 XT y evitar problemas de estabilidad.',
+      titulo: '¿Necesito actualizar mi fuente de alimentación para usar la Nvidia GeForce GTX 1650 Super?',
+      respuesta: 'La Nvidia GeForce GTX 1650 Super tiene un consumo de energía moderado y puede funcionar correctamente con una fuente de alimentación de calidad de 350 vatios. No debería ser necesario actualizar la fuente de alimentación en la mayoría de los casos, a menos que ya esté operando cerca de su capacidad máxima o se planee agregar otros componentes de alto consumo de energía al sistema.',
     },
     {
       id: 'pregunta9',
-      titulo: '¿Cuál es la diferencia entre la AMD Radeon RX 6800 XT y la RX 6900 XT?',
-      respuesta: 'La RX 6900 XT es la versión de gama alta de la serie RX 6000 de AMD, ofreciendo un mayor número de unidades de cómputo y un rendimiento ligeramente superior en comparación con la RX',
+      titulo: '¿Cuál es el precio aproximado de la Nvidia GeForce GTX 1650 Super?',
+      respuesta: 'El precio de la Nvidia GeForce GTX 1650 Super puede variar dependiendo del fabricante, la ubicación geográfica y la disponibilidad en el mercado. En general, se encuentra en el rango de precios de gama media, oscilando alrededor de los 200-250 dólares estadounidenses. Es importante verificar los precios actualizados en tiendas y distribuidores autorizados, ya que pueden cambiar con el tiempo debido a la demanda y la disponibilidad.',
     },
     {
       id: 'pregunta10',
-      titulo: '¿Cuál es el precio aproximado de la AMD Radeon RX 6800 XT?',
-      respuesta: 'El precio de la AMD Radeon RX 6800 XT puede variar según el fabricante y el país, pero en general, se encuentra en un rango de precios de gama alta, normalmente alrededor de los 700-800 dólares estadounidenses.',
+      titulo: '¿Qué juegos puedo jugar con la Nvidia GeForce GTX 1650 Super?',
+      respuesta: 'La Nvidia GeForce GTX 1650 Super es capaz de manejar una amplia gama de juegos populares y actuales. Puede ejecutar la mayoría de los juegos modernos en resolución 1080p con configuraciones gráficas medias a altas, ofreciendo una experiencia de juego suave y fluida. Algunos ejemplos de juegos que puedes jugar con esta tarjeta incluyen Fortnite, Apex Legends, Counter-Strike: Global Offensive, League of Legends, Overwatch, Valorant y muchos otros. Sin embargo, para juegos más exigentes en términos de gráficos, es posible que debas ajustar las configuraciones gráficas para obtener un rendimiento óptimo.',
     }
   ];
 
@@ -60,10 +60,12 @@ export const Pregunta1650Super = () => {
 
     return (
         
-        <div className='Container'>
-            <h3>{preguntaActual.titulo}</h3>
-            <p>{preguntaActual.respuesta}</p>
+      <div className='Container'>
+        <div className='cardRespuesta'>
+          <h3>{preguntaActual.titulo}</h3>
+          <p>{preguntaActual.respuesta}</p>
         </div>
+      </div>
     );
 };
 
@@ -72,7 +74,7 @@ const Preguntas1650Super = () => {
       <div>
         {preguntas1650Super.map((pregunta) => (
           <li key={pregunta.id}>
-            <Link to={`/placas-de-video/1650Super/${pregunta.id}`}>{pregunta.titulo}</Link>
+            <Link to={`/placas-de-video/nvidia-1650-super/${pregunta.id}`}>{pregunta.titulo}</Link>
           </li>
         ))}
       </div>

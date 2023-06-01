@@ -5,52 +5,52 @@ const preguntas6800XT = [
     {
       id: 'pregunta1',
       titulo: '¿Cuáles son las especificaciones clave de la AMD Radeon RX 6800 XT?',
-      respuesta: ' La AMD Radeon RX 6800 XT cuenta con 72 unidades de cómputo, 16 GB de memoria GDDR6, una velocidad de reloj base de 2015 MHz y una velocidad de reloj de impulso de 2250 MHz.',
+      respuesta: 'La AMD Radeon RX 6800 XT es una potente tarjeta gráfica que cuenta con 72 unidades de cómputo y una velocidad de reloj base de 2015 MHz, lo que le permite ofrecer un rendimiento excepcional en juegos de alta demanda. Además, está equipada con 16 GB de memoria GDDR6, que proporciona un ancho de banda rápido y eficiente para el procesamiento de gráficos intensivos.',
     },
     {
       id: 'pregunta2',
       titulo: '¿Qué tipo de rendimiento puedo esperar de la AMD Radeon RX 6800 XT en juegos?',
-      respuesta: ' La RX 6800 XT ofrece un rendimiento excelente en juegos de alta demanda, proporcionando un alto número de cuadros por segundo y una experiencia de juego fluida en resoluciones 1440p y 4K.',
+      respuesta: 'La AMD Radeon RX 6800 XT ofrece un rendimiento sobresaliente en juegos de última generación. Gracias a su gran cantidad de unidades de cómputo y su alta velocidad de reloj, esta tarjeta gráfica es capaz de proporcionar una experiencia de juego fluida y sin problemas, incluso en resoluciones 1440p y 4K. Los jugadores pueden esperar altos niveles de cuadros por segundo y gráficos detallados en juegos exigentes.',
     },
     {
       id: 'pregunta3',
       titulo: '¿Es compatible la AMD Radeon RX 6800 XT con la tecnología de trazado de rayos (ray tracing)?',
-      respuesta: 'Sí, la RX 6800 XT es compatible con la tecnología de trazado de rayos. Puede ofrecer efectos visuales mejorados y una iluminación más realista en juegos compatibles con ray tracing.',
+      respuesta: 'Sí, la AMD Radeon RX 6800 XT es compatible con la tecnología de trazado de rayos. Esta tecnología permite una representación más realista de la iluminación y los efectos visuales en los juegos, creando sombras y reflejos más precisos. Con el trazado de rayos habilitado, los juegos pueden alcanzar un nivel de inmersión visual impresionante, brindando una experiencia más envolvente a los jugadores.',
     },
     {
       id: 'pregunta4',
       titulo: ' ¿Cuántos monitores puedo conectar a la AMD Radeon RX 6800 XT?',
-      respuesta: 'La RX 6800 XT admite hasta cuatro monitores simultáneamente. Puedes conectarlos utilizando los puertos DisplayPort 1.4 y HDMI 2.1.',
+      respuesta: 'La AMD Radeon RX 6800 XT es capaz de admitir hasta cuatro monitores simultáneamente. Esto es posible gracias a los puertos de conectividad que ofrece, como DisplayPort 1.4 y HDMI 2.1. Estos puertos permiten una conexión sencilla y de alta calidad con monitores modernos, lo que brinda a los usuarios la posibilidad de disfrutar de una configuración de múltiples pantallas y aprovechar al máximo su experiencia de visualización.',
     },
     {
       id: 'pregunta5',
       titulo: ' ¿Requiere la AMD Radeon RX 6800 XT una fuente de alimentación especial?',
-      respuesta: 'Sí, la RX 6800 XT requiere una fuente de alimentación sólida. Se recomienda una fuente de alimentación de al menos 750 vatios con conectores de alimentación PCIe de 8 pines y 6 pines.',
+      respuesta: 'Sí, la AMD Radeon RX 6800 XT requiere una fuente de alimentación adecuada para garantizar un funcionamiento óptimo y estable. Se recomienda utilizar una fuente de alimentación de alta calidad con una capacidad de al menos 750 vatios. Además, es importante asegurarse de que la fuente de alimentación cuente con los conectores de alimentación PCIe necesarios, como conectores de 8 pines y 6 pines, para proporcionar una alimentación adecuada a la tarjeta gráfica.',
     },
     {
       id: 'pregunta6',
       titulo: ' ¿Es compatible la AMD Radeon RX 6800 XT con tecnologías de sincronización como FreeSync o G-Sync?',
-      respuesta: 'La RX 6800 XT es compatible con FreeSync, la tecnología de sincronización adaptable de AMD. Sin embargo, no es compatible oficialmente con G-Sync, la tecnología de sincronización de NVIDIA, aunque algunos usuarios han informado que puede funcionar de manera adecuada.',
+      respuesta: 'La AMD Radeon RX 6800 XT es compatible con FreeSync, la tecnología de sincronización adaptable de AMD. Esto permite una experiencia de juego más suave y sin problemas al sincronizar la frecuencia de actualización del monitor con la velocidad de fotogramas generada por la tarjeta gráfica. Sin embargo, es importante tener en cuenta que la RX 6800 XT no es compatible oficialmente con G-Sync, la tecnología de sincronización de NVIDIA. Algunos usuarios han informado que han logrado hacerla funcionar en ciertas configuraciones, pero no se garantiza una compatibilidad total.',
     },
     {
       id: 'pregunta7',
       titulo: '¿Cuál es la temperatura de funcionamiento normal de la AMD Radeon RX 6800 XT?',
-      respuesta: 'La temperatura de funcionamiento normal de la RX 6800 XT puede variar según el diseño del fabricante y las condiciones ambientales, pero típicamente se mantiene entre los 60 y 80 grados Celsius bajo carga intensa.',
+      respuesta: ' La temperatura de funcionamiento normal de la AMD Radeon RX 6800 XT puede variar según varios factores, como el diseño y la configuración del sistema, así como las condiciones ambientales. En general, se espera que la tarjeta gráfica alcance temperaturas entre los 60 y 80 grados Celsius bajo carga intensa. Es importante asegurarse de que el sistema de enfriamiento de la tarjeta gráfica esté adecuadamente diseñado y que haya una buena circulación de aire dentro del chasis de la computadora para mantener las temperaturas bajo control.',
     },
     {
       id: 'pregunta8',
       titulo: ' ¿Necesito actualizar mi fuente de alimentación para usar la AMD Radeon RX 6800 XT?',
-      respuesta: 'Si tu fuente de alimentación actual no cumple con los requisitos recomendados, es posible que necesites actualizarla para alimentar adecuadamente la RX 6800 XT y evitar problemas de estabilidad.',
+      respuesta: 'Sí, es posible que necesites actualizar tu fuente de alimentación si no cumple con los requisitos recomendados para la AMD Radeon RX 6800 XT. Dado que esta tarjeta gráfica es bastante potente y requiere una cantidad significativa de energía, se recomienda utilizar una fuente de alimentación de alta calidad con una capacidad de al menos 750 vatios. Además, asegúrate de que la fuente de alimentación tenga los conectores de alimentación necesarios para la tarjeta gráfica (como conectores PCIe de 8 pines y 6 pines) para garantizar un suministro de energía estable y adecuado.',
     },
     {
       id: 'pregunta9',
       titulo: '¿Cuál es la diferencia entre la AMD Radeon RX 6800 XT y la RX 6900 XT?',
-      respuesta: 'La RX 6900 XT es la versión de gama alta de la serie RX 6000 de AMD, ofreciendo un mayor número de unidades de cómputo y un rendimiento ligeramente superior en comparación con la RX',
+      respuesta: 'La principal diferencia entre la AMD Radeon RX 6800 XT y la RX 6900 XT es que esta última es la versión de gama alta de la serie RX 6000 de AMD. La RX 6900 XT cuenta con un mayor número de unidades de cómputo y una velocidad de reloj más alta en comparación con la RX 6800 XT. Como resultado, la RX 6900 XT ofrece un rendimiento ligeramente superior en juegos y aplicaciones intensivas. Sin embargo, es importante tener en cuenta que la RX 6900 XT también tiene un precio más elevado que la RX 6800 XT.',
     },
     {
       id: 'pregunta10',
       titulo: '¿Cuál es el precio aproximado de la AMD Radeon RX 6800 XT?',
-      respuesta: 'El precio de la AMD Radeon RX 6800 XT puede variar según el fabricante y el país, pero en general, se encuentra en un rango de precios de gama alta, normalmente alrededor de los 700-800 dólares estadounidenses.',
+      respuesta: 'El precio de la AMD Radeon RX 6800 XT puede variar dependiendo del fabricante, la ubicación geográfica y la disponibilidad en el mercado. En general, la RX 6800 XT se encuentra en el rango de precios de gama alta, normalmente alrededor de los 700-800 dólares estadounidenses. Sin embargo, es importante tener en cuenta que los precios pueden cambiar con el tiempo debido a factores como la demanda y la oferta, por lo que es recomendable verificar los precios actualizados en tiendas y distribuidores autorizados antes de realizar una compra.',
     }
   ];
 
@@ -59,11 +59,12 @@ export const Pregunta6800XT = () => {
     const preguntaActual = preguntas6800XT.find((pregunta) => pregunta.id === preguntaId);
 
     return (
-        
-        <div className='Container'>
-            <h3>{preguntaActual.titulo}</h3>
-            <p>{preguntaActual.respuesta}</p>
+      <div className='Container'>
+        <div className='cardRespuesta'>
+          <h3>{preguntaActual.titulo}</h3>
+          <p>{preguntaActual.respuesta}</p>
         </div>
+    </div>
     );
 };
 
