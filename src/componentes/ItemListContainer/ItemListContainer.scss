@@ -1,20 +1,3 @@
-// @media screen and (min-width: 1024px)
-//     {
-//         ..
-//     }
-
-// @media screen and (min-width: 767px) and (max-width: 1023px)
-//     {
-//         ..
-//     }
-
-// @media screen and (max-width: 767px)
-//     {
-//         ..
-//     }
-
-
-
 .Container{
     min-height: 100vh;
     // background-color: #083083;
@@ -39,58 +22,71 @@
     .inicioDer{
         width: 50%;
     }
-    .cards{
+    .categorias{
         display: flex;
-        flex-direction: row;
-        margin: 5rem;
-        .content-show{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        img{
+            flex-basis: 50%;
+            max-width: 100%;
+        }
+        .cards{
             display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-        .content-show div{
-            position: relative;
-            width: 25rem;
-            border-radius: 4px;
-            overflow: hidden;
-        }
-        .content-show div:hover img{
-            transform: scale(1.15);
-        }
-        .content-show div .title-box{
-            content: "";
-            height: 100px;
-            position: absolute;
-            transform: translateY(50px);
-            transition: 0.3s ease;
-            left: 0;
-            bottom: 0;
-            background: linear-gradient(to bottom, rgba(0,0,0,0), black);
-            width: 100%;
-            z-index: 1;
-        }
-        .content-show div img{
-            object-fit: cover;
-            height: 100%;
-            width: 100%;
-            transition: 0.3s ease;
-        }
-        .content-show div .name{
-            position: absolute;
-            width: 100%;
-            bottom: 10px;
-            color: #fff;
-            transform: translateY(50px);
-            padding: 10px;
-            z-index: 10;
-            transition: .3s ease;
-            cursor: default;
-        }
-        .content-show div:hover .name,
-        .content-show div:hover .title-box{
-            transform: translateY(0);
+            flex-direction: row;
+            margin: 5rem;
+            // width: 100%;
+            .content-show{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+            .content-show div{
+                position: relative;
+                width: 25rem;
+                border-radius: 4px;
+                overflow: hidden;
+            }
+            .content-show div:hover img{
+                transform: scale(1.15);
+            }
+            .content-show div .title-box{
+                content: "";
+                height: 100px;
+                position: absolute;
+                transform: translateY(50px);
+                transition: 0.3s ease;
+                left: 0;
+                bottom: 0;
+                background: linear-gradient(to bottom, rgba(0,0,0,0), black);
+                width: 100%;
+                z-index: 1;
+            }
+            .content-show div img{
+                object-fit: cover;
+                height: 100%;
+                width: 100%;
+                transition: 0.3s ease;
+            }
+            .content-show div .name{
+                position: absolute;
+                width: 100%;
+                bottom: 10px;
+                color: #fff;
+                transform: translateY(50px);
+                padding: 10px;
+                z-index: 10;
+                transition: .3s ease;
+                cursor: default;
+            }
+            .content-show div:hover .name,
+            .content-show div:hover .title-box{
+                transform: translateY(0);
+            }
         }
     }
+    
     h2{
         font-family:  'Archivo', sans-serif;
         text-align: left;
@@ -103,13 +99,10 @@
         color: #4f87fb;
     }
     h4{
-        // text-align: center;
         font-family:'Quicksand', sans-serif;
         font-weight: 100;
         font-size: 1.2rem;
         text-align: left;
-        // display: flex;
-        // justify-content: center;
     }
     h3{
         font-family:'Archivo', sans-serif;
@@ -117,3 +110,38 @@
     }
 }
 
+@media screen and (max-width: 1023px)
+    {
+        .inicio{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .inicioIzq{
+                align-items: center;
+                padding: 3rem;
+                h4, h2{
+                    text-align: center;
+                }
+            }
+            .inicioDer{
+                display: none;
+            }
+        }
+        .categorias{
+            width: 50%;
+            display: flex;
+            flex-wrap: wrap;
+            img{
+                flex-basis: 100%;
+            }
+            .cards{
+                display: inline-grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+
+// @media screen and (max-width: 767px)
+//     {
+//         ..
+//     }
