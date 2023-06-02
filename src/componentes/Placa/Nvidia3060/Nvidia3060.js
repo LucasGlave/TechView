@@ -85,11 +85,18 @@ export const Pregunta3060 = () => {
             </button>
           </Link>)}
         </div>
-        <Link to={`/placas-de-video/nvidia-3060`}>
-          <button className='volver'>
-            Volver
-          </button>
-        </Link>
+        <div className='volverEntrar'>
+          <div className='volver'>
+            <Link to={`/placas-de-video/nvidia-3060`}>
+              <button>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span> VOLVER
+              </button>
+            </Link>
+          </div>
+        </div>
       </div>
   );
 };

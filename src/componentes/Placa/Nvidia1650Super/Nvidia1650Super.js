@@ -85,11 +85,18 @@ export const Pregunta1650Super = () => {
             </button>
           </Link>)}
         </div>
-        <Link to={`/placas-de-video/nvidia-1650-super`}>
-            <button className='volver'>
-              Volver
-            </button>
-          </Link>
+        <div className='volverEntrar'>
+          <div className='volver'>
+            <Link to={`/placas-de-video/nvidia-1650-super`}>
+              <button>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span> VOLVER
+              </button>
+            </Link>
+          </div>
+        </div>
       </div>
   );
 };

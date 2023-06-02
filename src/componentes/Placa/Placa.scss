@@ -117,20 +117,20 @@ h5{
 
 .volverEntrar{
     button {
-    position: relative;
-    padding: 0.3em 2.8em;
-    outline: none;
-    border: 5px solid #1c1a1a;
-    background: #05062d;
-    color: #ffffff;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 15px;
-    overflow: hidden;
-    transition: 0.2s;
-    border-radius: 10px;
-    cursor: pointer;
-    font-weight: bold;
+        position: relative;
+        padding: 0.3em 2.8em;
+        outline: none;
+        border: 1px solid #1c1a1a;
+        background: #17294c;
+        color: #ffffff;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 15px;
+        overflow: hidden;
+        transition: 0.2s;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
    }
    
    button:hover {

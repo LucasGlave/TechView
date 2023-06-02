@@ -84,11 +84,18 @@ export const Pregunta6800 = () => {
               </button>
             </Link>)}
           </div>
-          <Link to={`/placas-de-video/rx-6800`}>
-            <button className='volver'>
-              Volver
-            </button>
-          </Link>
+          <div className='volverEntrar'>
+            <div className='volver'>
+              <Link to={`/placas-de-video/rx-6800`}>
+                <button>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span> VOLVER
+                </button>
+              </Link>
+            </div>
+          </div>
         </div>
     );
 };
