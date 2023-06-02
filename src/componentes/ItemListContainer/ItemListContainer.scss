@@ -22,6 +22,7 @@
     .inicioDer{
         width: 50%;
     }
+@media (min-width: 768px) {
     .categorias{
         display: flex;
         flex-wrap: wrap;
@@ -33,10 +34,8 @@
             max-width: 100%;
         }
         .cards{
-            display: flex;
-            flex-direction: row;
-            margin: 5rem;
-            // width: 100%;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
             .content-show{
                 display: flex;
                 flex-wrap: wrap;
@@ -86,7 +85,7 @@
             }
         }
     }
-    
+}
     h2{
         font-family:  'Archivo', sans-serif;
         text-align: left;
@@ -110,7 +109,7 @@
     }
 }
 
-@media screen and (max-width: 1023px)
+@media (max-width: 768px)
     {
         .inicio{
             display: flex;
@@ -127,17 +126,12 @@
                 display: none;
             }
         }
-        .categorias{
-            width: 50%;
-            display: flex;
-            flex-wrap: wrap;
-            img{
-                flex-basis: 100%;
-            }
-            .cards{
-                display: inline-grid;
-                grid-template-columns: repeat(2, 1fr);
-            }
+        .cards{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .name{
+            display: none;
         }
     }
 
