@@ -171,6 +171,24 @@
             }
 
         }
+        .placa{
+            .Placa{
+                .card{
+                    margin: 10px 3rem 20px 3rem;
+                    width: 20rem;
+                    height: 11rem;
+                    border-radius: 20px;
+                    /* padding: 1px; */
+                    box-shadow: rgb(151 65 252 / 20%) 0 15px 30px -5px;
+                    background-image: linear-gradient(
+                    144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+                }
+            }
+        }
+        .cardRespuesta{
+            width: 80%;
+            height: 100%;
+        }
         
     }
 
