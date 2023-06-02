@@ -8,7 +8,7 @@ export const NavBar = () => {
     <div className='Header'>
       <Navbar expand="lg" variant="dark" bg="dark">
         <div className='imagen'>
-          <Link to="/"><img src="./img/logo2.png" alt='logo' width="270" height="220"></img></Link>
+          <Link to="/"><img src="/img/logo2.png" alt='logo' width="270" height="220"></img></Link>
         </div>
         <div className='buscador'>
           <input placeholder="Buscar producto" className="input" name="text" type="text"/>

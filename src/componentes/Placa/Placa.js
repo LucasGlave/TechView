@@ -13,13 +13,14 @@ export const Placa = () => {
                             {/* <img src="./img/Placas/3090.jpg" alt='logo' width="180" height="150"/> */}
                             
                                 <h6>NVIDIA GeForce RTX 3090</h6>
-                                <Link to="/placas-de-video/nvidia-3090"><button>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span> ENTRAR
-                                    </button></Link>
-                            
+                                <div className='volverEntrar'>
+                                    <Link to="/placas-de-video/nvidia-3090"><button>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span> ENTRAR
+                                        </button></Link>
+                                </div>
                         </div>
                     </div>
 
@@ -28,13 +29,14 @@ export const Placa = () => {
                             {/* <img src="./img/Placas/3080.jpg" alt='logo' width="180" height="150"/> */}
                             
                                 <h6>NVIDIA GeForce RTX 3080</h6>
-                                <Link to="/placas-de-video/nvidia-3080"><button>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span> ENTRAR
-                                    </button></Link>
-                            
+                                <div className='volverEntrar'>
+                                    <Link to="/placas-de-video/nvidia-3080"><button>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span> ENTRAR
+                                        </button></Link>
+                                </div>
                         </div>
                     </div>
 
@@ -43,13 +45,14 @@ export const Placa = () => {
                             {/* <img src="./img/Placas/3070.jpg" alt='logo' width="180" height="150"/> */}
                             
                                 <h6>NVIDIA GeForce RTX 3070</h6>
-                                <Link to="/placas-de-video/nvidia-3070"><button>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span> ENTRAR
-                                    </button></Link>
-                            
+                                <div className='volverEntrar'>
+                                    <Link to="/placas-de-video/nvidia-3070"><button>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span> ENTRAR
+                                        </button></Link>
+                                </div>
                         </div>
                     </div>
 
@@ -58,13 +61,14 @@ export const Placa = () => {
                             {/* <img src="./img/Placas/3060ti.jpg" alt='logo'/> */}
                             
                                 <h6>NVIDIA GeForce RTX 3060 Ti</h6>
-                                <Link to="/placas-de-video/nvidia-3060"><button>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span> ENTRAR
-                                    </button></Link>
-                            
+                                <div className='volverEntrar'>
+                                    <Link to="/placas-de-video/nvidia-3060"><button>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span> ENTRAR
+                                        </button></Link>
+                                </div>
                         </div>
                     </div>
 
@@ -73,25 +77,28 @@ export const Placa = () => {
                             {/* <img src="./img/logo2.png" alt='logo' width="180" height="150"/> */}
                             
                                 <h6>AMD Radeon RX 6900 XT</h6>
-                                <Link to="/placas-de-video/rx-6900-xt"><button>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span> ENTRAR
-                                    </button></Link>
-                            
+                                <div className='volverEntrar'>
+                                    <Link to="/placas-de-video/rx-6900-xt"><button>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span> ENTRAR
+                                        </button></Link>
+                                </div>
                         </div>
                     </div>
 
                     <div className='card'>
                         <div className='card__content'>
-                                <h6>AMD Radeon RX 6800 XT</h6>
-                                <Link to="/placas-de-video/rx-6800-xt"><button>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span> ENTRAR
-                                    </button></Link>
+                            <h6>AMD Radeon RX 6800 XT</h6>
+                                <div className='volverEntrar'>
+                                    <Link to="/placas-de-video/rx-6800-xt"><button>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span> ENTRAR
+                                        </button></Link>
+                                </div>    
                         </div>
                     </div>
 
@@ -100,15 +107,16 @@ export const Placa = () => {
                             {/* <img src="./img/logo2.png" alt='logo' width="180" height="150"/> */}
                             
                                 <h6>AMD Radeon RX 6800</h6>
-                                <Link to="/placas-de-video/rx-6800">
-                                    <button>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span> ENTRAR
-                                    </button>
-                                </Link>
-                            
+                                <div className='volverEntrar'>
+                                    <Link to="/placas-de-video/rx-6800">
+                                        <button>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span> ENTRAR
+                                        </button>
+                                    </Link>
+                                </div>
                         </div>
                     </div>
 
@@ -117,13 +125,14 @@ export const Placa = () => {
                             {/* <img src="./img/logo2.png" alt='logo' width="180" height="150"/> */}
                             
                                 <h6>NVIDIA GeForce GTX 1660 Ti</h6>
-                                <Link to="/placas-de-video/nvidia-1660-ti"><button>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span> ENTRAR
-                                    </button></Link>
-                            
+                                <div className='volverEntrar'>
+                                    <Link to="/placas-de-video/nvidia-1660-ti"><button>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span> ENTRAR
+                                        </button></Link>
+                                </div>
                         </div>
                     </div>
 
@@ -132,21 +141,27 @@ export const Placa = () => {
                             {/* <img src="./img/logo2.png" alt='logo' width="180" height="150"/> */}
                             
                                 <h6>NVIDIA GeForce GTX 1650 Super</h6>
-                                <Link to="/placas-de-video/nvidia-1650-super"><button>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span> ENTRAR
-                                    </button></Link>
-                            
+                                <div className='volverEntrar'>
+                                    <Link to="/placas-de-video/nvidia-1650-super"><button>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span> ENTRAR
+                                        </button></Link>
+                                </div>
                         </div>
                     </div>
                 </div>
-                <Link to={`/`}>
-                    <button className='volver'>
-                        Volver
-                    </button>
-                </Link>
+                <div className='volverEntrar' style={{margin:'30px'}}>
+                    <div className='volver'>
+                        <Link to="/"><button>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span> VOLVER
+                            </button></Link>
+                    </div>
+                </div>
             </div>
         </div>
         

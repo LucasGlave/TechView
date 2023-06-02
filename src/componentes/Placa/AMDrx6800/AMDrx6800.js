@@ -96,20 +96,27 @@ export const Pregunta6800 = () => {
 const Preguntas6800 = () => {
     return (
       <div className='preguntas'>
+        <img src='/img/AMD.png' alt='AMD' width={300} height={200}/>
         {preguntas6800.map((pregunta) => (
           <li key={pregunta.id}>
             <Link to={`/placas-de-video/rx-6800/${pregunta.id}`}>{pregunta.titulo}</Link>
           </li>
         ))}
-        <Link to={`/placas-de-video`}>
-          <button className='volver'>
-            Volver
-          </button>
-        </Link>
+        <div className='volverEntrar' style={{margin:'30px'}}>
+          <div className='volver'>
+            <Link to={`/placas-de-video`}>
+              <button>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span> VOLVER
+              </button>
+            </Link>
+          </div>
+        </div>
       </div>
     );
   };
-
   const AMDrx6800 = () => {
     return (
       <div className='6800'>

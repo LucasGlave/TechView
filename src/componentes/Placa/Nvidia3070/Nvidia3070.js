@@ -97,16 +97,24 @@ export const Pregunta3070 = () => {
 const Preguntas3070 = () => {
     return (
       <div className='preguntas'>
+        <img src='/img/NVIDIA.png' alt='NVIDIA' width={300} height={150}/>
         {preguntas3070.map((pregunta) => (
           <li key={pregunta.id}>
             <Link to={`/placas-de-video/nvidia-3070/${pregunta.id}`}>{pregunta.titulo}</Link>
           </li>
         ))}
-        <Link to={`/placas-de-video`}>
-          <button className='volver'>
-            Volver
-          </button>
-        </Link>
+        <div className='volverEntrar' style={{margin:'30px'}}>
+          <div className='volver'>
+            <Link to={`/placas-de-video`}>
+              <button>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span> VOLVER
+              </button>
+            </Link>
+          </div>
+        </div>
       </div>
     );
   };
