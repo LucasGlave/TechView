@@ -57,6 +57,9 @@ const preguntas6800 = [
 export const Pregunta6800 = () => {
     const { preguntaId } = useParams();
     const preguntaActual = preguntas6800.find((pregunta) => pregunta.id === preguntaId);
+    const currentIndex = preguntas6800.findIndex((pregunta) => pregunta.id === preguntaId);
+    const previousQuestionId = currentIndex > 0 ? preguntas6800[currentIndex - 1].id : null;
+    const nextQuestionId = currentIndex < preguntas6800.length - 1 ? preguntas6800[currentIndex + 1].id : null;
 
     return (
         
@@ -65,18 +68,44 @@ export const Pregunta6800 = () => {
             <h3>{preguntaActual.titulo}</h3>
             <p>{preguntaActual.respuesta}</p>
           </div>
+          <div className='adelanteAtras'>
+            {previousQuestionId && (
+            <Link to={`/placas-de-video/rx-6800/${previousQuestionId}`}>
+              <button className='atras'>
+                <i className="atrasI bi bi-arrow-left"></i>
+                <span>Anterior pregunta</span>
+              </button>
+            </Link> )}
+            {nextQuestionId && (
+            <Link to={`/placas-de-video/rx-6800/${nextQuestionId}`}>
+              <button className='adelante'>
+                <span>Siguiente pregunta</span>
+                <i className="adelanteI bi bi-arrow-right"></i>
+              </button>
+            </Link>)}
+          </div>
+          <Link to={`/placas-de-video/rx-6800`}>
+            <button className='volver'>
+              Volver
+            </button>
+          </Link>
         </div>
     );
 };
 
 const Preguntas6800 = () => {
     return (
-      <div>
+      <div className='preguntas'>
         {preguntas6800.map((pregunta) => (
           <li key={pregunta.id}>
             <Link to={`/placas-de-video/rx-6800/${pregunta.id}`}>{pregunta.titulo}</Link>
           </li>
         ))}
+        <Link to={`/placas-de-video`}>
+          <button className='volver'>
+            Volver
+          </button>
+        </Link>
       </div>
     );
   };

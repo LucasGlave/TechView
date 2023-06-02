@@ -55,28 +55,58 @@ const preguntas1650Super = [
   ];
 
 export const Pregunta1650Super = () => {
-    const { preguntaId } = useParams();
-    const preguntaActual = preguntas1650Super.find((pregunta) => pregunta.id === preguntaId);
+  const { preguntaId } = useParams();
+  const preguntaActual = preguntas1650Super.find((pregunta) => pregunta.id === preguntaId);
+  const currentIndex = preguntas1650Super.findIndex((pregunta) => pregunta.id === preguntaId);
+  const previousQuestionId = currentIndex > 0 ? preguntas1650Super[currentIndex - 1].id : null;
+  const nextQuestionId = currentIndex < preguntas1650Super.length - 1 ? preguntas1650Super[currentIndex + 1].id : null;
 
-    return (
-        
+
+  return (
+      
       <div className='Container'>
         <div className='cardRespuesta'>
           <h3>{preguntaActual.titulo}</h3>
           <p>{preguntaActual.respuesta}</p>
         </div>
+        <div className='adelanteAtras'>
+        {previousQuestionId && (
+          <Link to={`/placas-de-video/nvidia-1650-super/${previousQuestionId}`}>
+            <button className='atras'>
+              <i className="atrasI bi bi-arrow-left"></i>
+              <span>Anterior pregunta</span>
+            </button>
+          </Link> )}
+          {nextQuestionId && (
+          <Link to={`/placas-de-video/nvidia-1650-super/${nextQuestionId}`}>
+            <button className='adelante'>
+              <span>Siguiente pregunta</span>
+              <i className="adelanteI bi bi-arrow-right"></i>
+            </button>
+          </Link>)}
+        </div>
+        <Link to={`/placas-de-video/nvidia-1650-super`}>
+            <button className='volver'>
+              Volver
+            </button>
+          </Link>
       </div>
-    );
+  );
 };
 
 const Preguntas1650Super = () => {
     return (
-      <div>
+      <div className=''>
         {preguntas1650Super.map((pregunta) => (
           <li key={pregunta.id}>
             <Link to={`/placas-de-video/nvidia-1650-super/${pregunta.id}`}>{pregunta.titulo}</Link>
           </li>
         ))}
+        <Link to={`/placas-de-video`}>
+          <button className='volver'>
+            Volver
+          </button>
+        </Link>
       </div>
     );
   };
