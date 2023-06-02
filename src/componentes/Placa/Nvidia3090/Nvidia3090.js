@@ -4,13 +4,13 @@ import { Route, Link, useParams, Routes } from 'react-router-dom';
 const preguntas3090 = [
     {
       id: 'pregunta1',
-      titulo: '¿Cuáles son las especificaciones clave de la AMD Radeon RX 6800 XT?',
-      respuesta: ' La AMD Radeon RX 6800 XT cuenta con 72 unidades de cómputo, 16 GB de memoria GDDR6, una velocidad de reloj base de 2015 MHz y una velocidad de reloj de impulso de 2250 MHz.',
+      titulo: '¿Cuáles son las especificaciones clave de la Nvidia GeForce RTX 3090?',
+      respuesta: 'La Nvidia GeForce RTX 3090 cuenta con 10496 núcleos CUDA, una velocidad de reloj base de 1400 MHz y una velocidad de reloj de impulso de 1700 MHz. Esta tarjeta gráfica está equipada con 24 GB de memoria GDDR6X y tiene un ancho de banda de memoria de 936 GB/s, lo que la convierte en una opción poderosa para juegos en 4K, creación de contenido y aplicaciones de inteligencia artificial.',
     },
     {
       id: 'pregunta2',
-      titulo: '¿Qué tipo de rendimiento puedo esperar de la AMD Radeon RX 6800 XT en juegos?',
-      respuesta: ' La RX 6800 XT ofrece un rendimiento excelente en juegos de alta demanda, proporcionando un alto número de cuadros por segundo y una experiencia de juego fluida en resoluciones 1440p y 4K.',
+      titulo: '¿Cuál es el rendimiento de la Nvidia GeForce RTX 3090 en comparación con otras tarjetas gráficas de su segmento?',
+      respuesta: 'La Nvidia GeForce RTX 3090 es una de las tarjetas gráficas más potentes del mercado. Ofrece un rendimiento excepcional en juegos en resolución 4K y es capaz de manejar tareas intensivas en cuanto a gráficos y cálculos. Su arquitectura Ampere, junto con características como el trazado de rayos y el DLSS, proporciona una calidad visual y un rendimiento superiores en juegos y aplicaciones compatibles.',
     },
     {
       id: 'pregunta3',
@@ -19,38 +19,38 @@ const preguntas3090 = [
     },
     {
       id: 'pregunta4',
-      titulo: ' ¿Cuántos monitores puedo conectar a la AMD Radeon RX 6800 XT?',
-      respuesta: 'La RX 6800 XT admite hasta cuatro monitores simultáneamente. Puedes conectarlos utilizando los puertos DisplayPort 1.4 y HDMI 2.1.',
+      titulo: '¿Cuántos monitores puedo conectar a la Nvidia GeForce RTX 3090?',
+      respuesta: 'La Nvidia GeForce RTX 3090 es capaz de admitir hasta cuatro monitores simultáneamente. Dispone de múltiples puertos de visualización, como HDMI 2.1 y DisplayPort 1.4a, lo que permite una configuración flexible de múltiples pantallas.',
     },
     {
       id: 'pregunta5',
-      titulo: ' ¿Requiere la AMD Radeon RX 6800 XT una fuente de alimentación especial?',
-      respuesta: 'Sí, la RX 6800 XT requiere una fuente de alimentación sólida. Se recomienda una fuente de alimentación de al menos 750 vatios con conectores de alimentación PCIe de 8 pines y 6 pines.',
+      titulo: '¿Cuál es la potencia de alimentación requerida para la Nvidia GeForce RTX 3090?',
+      respuesta: 'Se recomienda una fuente de alimentación de alta calidad de al menos 750 vatios para alimentar adecuadamente la Nvidia GeForce RTX 3090. Además, la tarjeta gráfica requiere dos conectores de alimentación PCIe de 8 pines. Es importante asegurarse de que la fuente de alimentación cumpla con estos requisitos para un funcionamiento óptimo.',
     },
     {
       id: 'pregunta6',
-      titulo: ' ¿Es compatible la AMD Radeon RX 6800 XT con tecnologías de sincronización como FreeSync o G-Sync?',
-      respuesta: 'La RX 6800 XT es compatible con FreeSync, la tecnología de sincronización adaptable de AMD. Sin embargo, no es compatible oficialmente con G-Sync, la tecnología de sincronización de NVIDIA, aunque algunos usuarios han informado que puede funcionar de manera adecuada.',
+      titulo: '¿La Nvidia GeForce RTX 3090 es adecuada para la realidad virtual (VR)?',
+      respuesta: 'Sí, la Nvidia GeForce RTX 3090 es una excelente opción para la realidad virtual. Su potencia y capacidad de trazado de rayos la hacen ideal para experiencias de realidad virtual inmersivas y exigentes. Ofrece un rendimiento excepcional en juegos y aplicaciones de realidad virtual de alta calidad.',
     },
     {
       id: 'pregunta7',
-      titulo: '¿Cuál es la temperatura de funcionamiento normal de la AMD Radeon RX 6800 XT?',
-      respuesta: 'La temperatura de funcionamiento normal de la RX 6800 XT puede variar según el diseño del fabricante y las condiciones ambientales, pero típicamente se mantiene entre los 60 y 80 grados Celsius bajo carga intensa.',
+      titulo: '¿La Nvidia GeForce RTX 3090 es compatible con tecnologías de sincronización como G-Sync y FreeSync?',
+      respuesta: 'Sí, la Nvidia GeForce RTX 3090 es compatible tanto con G-Sync de NVIDIA como con FreeSync de AMD. Esto permite aprovechar la sincronización adaptativa en monitores compatibles para evitar el desgarro de pantalla y obtener una experiencia de juego más fluida y sin interrupciones.',
     },
     {
       id: 'pregunta8',
-      titulo: ' ¿Necesito actualizar mi fuente de alimentación para usar la AMD Radeon RX 6800 XT?',
-      respuesta: 'Si tu fuente de alimentación actual no cumple con los requisitos recomendados, es posible que necesites actualizarla para alimentar adecuadamente la RX 6800 XT y evitar problemas de estabilidad.',
+      titulo: '¿Cuál es el precio aproximado de la Nvidia GeForce RTX 3090?',
+      respuesta: 'El precio de la Nvidia GeForce RTX 3090 puede variar según el fabricante, la ubicación geográfica y la disponibilidad en el mercado. En general, la RTX 3090 es una tarjeta gráfica de gama alta y su precio puede superar los 1.000 dólares estadounidenses. Sin embargo, es importante verificar los precios actuales en tiendas y distribuidores autorizados, ya que pueden fluctuar debido a la demanda y la disponibilidad.',
     },
     {
       id: 'pregunta9',
-      titulo: '¿Cuál es la diferencia entre la AMD Radeon RX 6800 XT y la RX 6900 XT?',
-      respuesta: 'La RX 6900 XT es la versión de gama alta de la serie RX 6000 de AMD, ofreciendo un mayor número de unidades de cómputo y un rendimiento ligeramente superior en comparación con la RX',
+      titulo: '¿Cuál es la diferencia entre la Nvidia GeForce RTX 3090 y la Nvidia GeForce RTX 3080?',
+      respuesta: 'La Nvidia GeForce RTX 3090 es la opción más potente de la serie RTX 30 de Nvidia. En comparación con la RTX 3080, la RTX 3090 cuenta con más núcleos CUDA, una mayor cantidad de VRAM y un rendimiento general mejorado. Esto la convierte en una opción premium para aquellos que buscan el máximo rendimiento en juegos, creación de contenido y tareas de inteligencia artificial. Sin embargo, la RTX 3090 también tiende a ser más cara que la RTX 3080.',
     },
     {
       id: 'pregunta10',
-      titulo: '¿Cuál es el precio aproximado de la AMD Radeon RX 6800 XT?',
-      respuesta: 'El precio de la AMD Radeon RX 6800 XT puede variar según el fabricante y el país, pero en general, se encuentra en un rango de precios de gama alta, normalmente alrededor de los 700-800 dólares estadounidenses.',
+      titulo: '¿Qué tipo de refrigeración utiliza la Nvidia GeForce RTX 3090 y cómo afecta al rendimiento y la temperatura?',
+      respuesta: 'La Nvidia GeForce RTX 3090 utiliza sistemas de refrigeración avanzados, como el diseño de ventilador axial y cámaras de vapor, para mantener la temperatura bajo control durante las cargas de trabajo intensas. Estos sistemas de refrigeración eficientes ayudan a disipar el calor generado por la GPU y aseguran un funcionamiento estable y una temperatura óptima. Una mejor refrigeración contribuye a un rendimiento constante y evita problemas relacionados con el sobrecalentamiento, lo que garantiza una experiencia de juego fluida y confiable.',
     }
   ];
 
