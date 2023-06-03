@@ -85,11 +85,21 @@ export const Pregunta3070 = () => {
             </button>
           </Link>)}
         </div>
-        <Link to={`/placas-de-video/nvidia-3070`}>
-          <button className='volver'>
-            Volver
-          </button>
-        </Link>
+        <div className='volverEntrar'>
+          <div className='volver'>
+            <Link to={`/placas-de-video/nvidia-3070`}>
+              <button>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span> VOLVER
+              </button>
+            </Link>
+          </div>
+        </div>
+        <amp-auto-ads type="adsense"
+          data-ad-client="ca-pub-4820714602088067">
+        </amp-auto-ads>
       </div>
   );
 };

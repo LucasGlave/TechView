@@ -97,6 +97,9 @@ export const Pregunta6900XT = () => {
               </Link>
             </div>
           </div>
+        <amp-auto-ads type="adsense"
+          data-ad-client="ca-pub-4820714602088067">
+        </amp-auto-ads>
       </div>
   );
 };
