@@ -1,4 +1,3 @@
-import './Nvidia3070.scss';
 import { Route, Link, useParams, Routes } from 'react-router-dom';
 
 const preguntas3070 = [

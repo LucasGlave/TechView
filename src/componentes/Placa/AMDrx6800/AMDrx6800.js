@@ -1,4 +1,3 @@
-import './AMDrx6800.scss';
 import { Route, Link, useParams, Routes } from 'react-router-dom';
 
 const preguntas6800 = [
@@ -129,8 +128,8 @@ const Preguntas6800 = () => {
   };
   const AMDrx6800 = () => {
     return (
-      <div className='6800'>
-        <div className='Container'>
+      <div className='Container'>
+        <div className='placa'>
             <Preguntas6800 />
             <hr />
             <Routes>

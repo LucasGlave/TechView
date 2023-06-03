@@ -1,4 +1,3 @@
-import './Nvidia1660Ti.scss';
 import { Route, Link, useParams, Routes } from 'react-router-dom';
 
 const preguntas1660Ti = [

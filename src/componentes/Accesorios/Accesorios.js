@@ -1,5 +1,3 @@
-import './Accesorio.scss';
-
 export const Accesorio = () => {
     return (
         <div className='Accesorio'>

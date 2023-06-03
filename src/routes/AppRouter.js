@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
-import Procesador from '../componentes/Procesador/Procesador';
+import Procesadores from '../componentes/Procesador/Procesadores';
 import Placa from '../componentes/Placa/Placa';
-import Accesorio from '../componentes/Accesorio/Accesorio';
+import Accesorios from '../componentes/Accesorios/Accesorios';
 import Notebook from '../componentes/Notebook/Notebook';
 import ItemListContainer from '../componentes/ItemListContainer/ItemListContainer';
 import NavBar from '../componentes/NavBar/NavBar'; 
@@ -17,6 +17,23 @@ import AMDrx6900XT, { Pregunta6900XT } from '../componentes/Placa/AMDrx6900XT/AM
 import AMDrx6800XT, { Pregunta6800XT } from '../componentes/Placa/AMDrx6800XT/AMDrx6800XT';
 import AMDrx6800, { Pregunta6800 } from '../componentes/Placa/AMDrx6800/AMDrx6800';
 
+import AMDRyzen55600X, {PreguntaR55600} from '../componentes/Procesador/AMDRyzen55600X/AMDRyzen55600X';
+import AMDRyzen75800X, {PreguntaR75800} from '../componentes/Procesador/AMDRyzen75800X/AMDRyzen75800X';
+import AMDRyzen95900X, {PreguntaR95900} from '../componentes/Procesador/AMDRyzen95900X/AMDRyzen95900X';
+import AMDRyzen95950X, {PreguntaR95950} from '../componentes/Procesador/AMDRyzen95950X/AMDRyzen95950X';
+import AppleM1Pro, { PreguntaAM1PRO } from '../componentes/Procesador/AppleM1Pro/AppleM1Pro';
+import IntelI511600K, { PreguntaI511600 } from '../componentes/Procesador/IntelI511600K/IntelI511600K';
+import IntelI711700K, { PreguntaI711700 } from '../componentes/Procesador/IntelI711700K/IntelI711700K';
+import IntelI910900, { PreguntaI910900 } from '../componentes/Procesador/IntelI910900K/IntelI910900K';
+import IntelI911900, { PreguntaI911900 } from '../componentes/Procesador/IntelI911900k/IntelI911900k';
+
+
+
+
+
+
+
+
 
 
 export const AppRouter = () => {
@@ -25,9 +42,9 @@ export const AppRouter = () => {
             <NavBar/>
             <Routes>
                 <Route path='/' element={<ItemListContainer/>}/>
-                <Route path='/procesador' element={<Procesador/>}/>
+                <Route path='/procesadores' element={<Procesadores/>}/>
                 <Route path='/placas-de-video' element={<Placa/>}/>
-                <Route path='/accesorio' element={<Accesorio/>}/>
+                <Route path='/accesorios' element={<Accesorios/>}/>
                 <Route path='/notebook' element={<Notebook/>}/>
                 {/* <Route path='/Nvidia3090' element={<Nvidia3090/>}/> */}
                 <Route path="/placas-de-video/nvidia-3090/*" element={<Nvidia3090 />} />
@@ -56,6 +73,37 @@ export const AppRouter = () => {
                 {/* <Route path='/AMDrx6800XT/*' element={<AMDrx6800XT/>}/> */}
                 <Route path="/placas-de-video/rx-6800-xt/*" element={<AMDrx6800XT />} />
                 <Route path="/placas-de-video/rx-6800-xt/:preguntaId" element={<Pregunta6800XT />} />
+
+                <Route path="/procesadores/amd-ryzen-7-5800x/*" element={<AMDRyzen75800X />} />
+                <Route path="/procesadores/amd-ryzen-7-5800x/:preguntaId" element={<PreguntaR75800 />} />
+
+                <Route path="/procesadores/amd-ryzen-5-5600x/*" element={<AMDRyzen55600X />} />
+                <Route path="/procesadores/amd-ryzen-5-5600x/:preguntaId" element={<PreguntaR55600 />} />
+
+                <Route path="/procesadores/amd-ryzen-9-5900x/*" element={<AMDRyzen95900X />} />
+                <Route path="/procesadores/amd-ryzen-9-5900x/:preguntaId" element={<PreguntaR95900 />} />
+
+                <Route path="/procesadores/amd-ryzen-9-5950x/*" element={<AMDRyzen95950X />} />
+                <Route path="/procesadores/amd-ryzen-9-5950x/:preguntaId" element={<PreguntaR95950 />} />
+
+                <Route path="/procesadores/apple-m1-pro/*" element={<AppleM1Pro />} />
+                <Route path="/procesadores/apple-m1-pro/:preguntaId" element={<PreguntaAM1PRO />} />
+
+                <Route path="/procesadores/intel-core-i5-11600k/*" element={<IntelI511600K />} />
+                <Route path="/procesadores/intel-core-i5-11600k/:preguntaId" element={<PreguntaI511600 />} />
+
+                <Route path="/procesadores/intel-core-i7-11700k/*" element={<IntelI711700K />} />
+                <Route path="/procesadores/intel-core-i7-11700k/:preguntaId" element={<PreguntaI711700 />} />
+
+                <Route path="/procesadores/intel-core-i9-10900k/*" element={<IntelI910900 />} />
+                <Route path="/procesadores/intel-core-i9-10900k/:preguntaId" element={<PreguntaI910900 />} />
+
+                <Route path="/procesadores/intel-core-i9-11900k/*" element={<IntelI911900 />} />
+                <Route path="/procesadores/intel-core-i9-11900k/:preguntaId" element={<PreguntaI911900 />} />
+
+
+
+
                 <Route path='*' element={<Navigate to= "/"/>}/>
             </Routes>
             <Footer/>

@@ -1,9 +1,12 @@
+import SearchHome from '../SearchHome/SearchHome';
 import './ItemListContainer.scss';
+
 import { Link } from 'react-router-dom';
 
 export const ItemListContainer = () => {
     return (
         <div className='Container'>
+            <SearchHome/>
             <div className='inicio'>
                 <div className='inicioIzq'>
                     <div className='techView'>
@@ -24,7 +27,7 @@ export const ItemListContainer = () => {
             <div className='categorias'>
                 <h3>SELECCIONE LA CATEGORIA QUE DESEA INVESTIGAR</h3>
                 <div className="cards">
-                    <Link to="/accesorio">
+                    <Link to="/accesorios">
                         <div className='content-show'>
                             <div>
                                 <img src='./img/teclado.jpg' alt='Accesorios'/>
@@ -33,7 +36,7 @@ export const ItemListContainer = () => {
                             </div>    
                         </div>
                     </Link>
-                    <Link to="/procesador">
+                    <Link to="/procesadores">
                         <div className='content-show'>
                             <div>
                                 <img src='./img/cpu.jpg' alt='cpu'/>
@@ -51,7 +54,7 @@ export const ItemListContainer = () => {
                             </div> 
                         </div>
                     </Link>
-                    <Link to="/notebook">
+                    <Link to="/notebooks">
                         <div className='content-show'>
                             <div>
                                 <img src='./img/notebook.jpg' alt='notebook'/>

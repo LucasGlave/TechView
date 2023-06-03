@@ -1,4 +1,3 @@
-import './Nvidia1650Super.scss';
 import { Route, Link, useParams, Routes } from 'react-router-dom';
 
 const preguntas1650Super = [

@@ -1,27 +1,41 @@
-import './Placa.scss';
 import { Link } from 'react-router-dom';
 
 
-export const Placa = () => {
+export const Procesadores = () => {
     return (
         <div className='Container'>
             
             <div className='placa'>
-            <h5>PLACAS DE VIDEO</h5>
+            <h5>PROCESADORES</h5>
                 <div className='Placa'>
+                    <div className='card'>
+                        <div className='card__content'>
+                            {/* <img src="./img/logo2.png" alt='logo' width="180" height="150"/> */}
+                            
+                            <h6>AMD Ryzen 5 5600X</h6>
+                            <div className='volverEntrar'>
+                                <Link to="/procesadores/amd-ryzen-5-5600x"><button>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span> ENTRAR
+                                    </button></Link>
+                            </div>
+                        </div>
+                    </div>
                     <div className='card'>
                         <div className='card__content'>
                             {/* <img src="./img/Placas/3090.jpg" alt='logo' width="180" height="150"/> */}
                             
-                                <h6>NVIDIA GeForce RTX 3090</h6>
-                                <div className='volverEntrar'>
-                                    <Link to="/placas-de-video/nvidia-3090"><button>
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                                        <span></span> ENTRAR
-                                        </button></Link>
-                                </div>
+                            <h6>AMD Ryzen 7 5800X</h6>
+                            <div className='volverEntrar'>
+                                <Link to="/procesadores/amd-ryzen-7-5800x"><button>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span> ENTRAR
+                                    </button></Link>
+                            </div>
                         </div>
                     </div>
 
@@ -29,9 +43,9 @@ export const Placa = () => {
                         <div className='card__content'>
                             {/* <img src="./img/Placas/3080.jpg" alt='logo' width="180" height="150"/> */}
                             
-                                <h6>NVIDIA GeForce RTX 3080</h6>
+                                <h6>AMD Ryzen 9 5900X</h6>
                                 <div className='volverEntrar'>
-                                    <Link to="/placas-de-video/nvidia-3080"><button>
+                                    <Link to="/procesadores/amd-ryzen-9-5900x"><button>
                                         <span></span>
                                         <span></span>
                                         <span></span>
@@ -45,9 +59,9 @@ export const Placa = () => {
                         <div className='card__content'>
                             {/* <img src="./img/Placas/3070.jpg" alt='logo' width="180" height="150"/> */}
                             
-                                <h6>NVIDIA GeForce RTX 3070</h6>
+                                <h6>AMD Ryzen 9 5950X</h6>
                                 <div className='volverEntrar'>
-                                    <Link to="/placas-de-video/nvidia-3070"><button>
+                                    <Link to="/procesadores/amd-ryzen-9-5950x"><button>
                                         <span></span>
                                         <span></span>
                                         <span></span>
@@ -61,9 +75,9 @@ export const Placa = () => {
                         <div className='card__content'>
                             {/* <img src="./img/Placas/3060ti.jpg" alt='logo'/> */}
                             
-                                <h6>NVIDIA GeForce RTX 3060 Ti</h6>
+                                <h6>Apple M1 Pro</h6>
                                 <div className='volverEntrar'>
-                                    <Link to="/placas-de-video/nvidia-3060"><button>
+                                    <Link to="/procesadores/apple-m1-pro"><button>
                                         <span></span>
                                         <span></span>
                                         <span></span>
@@ -77,9 +91,9 @@ export const Placa = () => {
                         <div className='card__content'>
                             {/* <img src="./img/logo2.png" alt='logo' width="180" height="150"/> */}
                             
-                                <h6>AMD Radeon RX 6900 XT</h6>
+                                <h6>Intel Core i5-11600K</h6>
                                 <div className='volverEntrar'>
-                                    <Link to="/placas-de-video/rx-6900-xt"><button>
+                                    <Link to="/procesadores/intel-core-i5-11600k"><button>
                                         <span></span>
                                         <span></span>
                                         <span></span>
@@ -91,9 +105,9 @@ export const Placa = () => {
 
                     <div className='card'>
                         <div className='card__content'>
-                            <h6>AMD Radeon RX 6800 XT</h6>
+                            <h6>Intel Core i7-11700K</h6>
                                 <div className='volverEntrar'>
-                                    <Link to="/placas-de-video/rx-6800-xt"><button>
+                                    <Link to="/procesadores/intel-core-i7-11700k"><button>
                                         <span></span>
                                         <span></span>
                                         <span></span>
@@ -107,9 +121,9 @@ export const Placa = () => {
                         <div className='card__content'>
                             {/* <img src="./img/logo2.png" alt='logo' width="180" height="150"/> */}
                             
-                                <h6>AMD Radeon RX 6800</h6>
+                                <h6>Intel Core i9-10900K</h6>
                                 <div className='volverEntrar'>
-                                    <Link to="/placas-de-video/rx-6800">
+                                    <Link to="/procesadores/intel-core-i9-10900k">
                                         <button>
                                         <span></span>
                                         <span></span>
@@ -125,25 +139,9 @@ export const Placa = () => {
                         <div className='card__content'>
                             {/* <img src="./img/logo2.png" alt='logo' width="180" height="150"/> */}
                             
-                                <h6>NVIDIA GeForce GTX 1660 Ti</h6>
+                                <h6>Intel Core i9-11900K</h6>
                                 <div className='volverEntrar'>
-                                    <Link to="/placas-de-video/nvidia-1660-ti"><button>
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                                        <span></span> ENTRAR
-                                        </button></Link>
-                                </div>
-                        </div>
-                    </div>
-
-                    <div className='card'>
-                        <div className='card__content'>
-                            {/* <img src="./img/logo2.png" alt='logo' width="180" height="150"/> */}
-                            
-                                <h6>NVIDIA GeForce GTX 1650 Super</h6>
-                                <div className='volverEntrar'>
-                                    <Link to="/placas-de-video/nvidia-1650-super"><button>
+                                    <Link to="/procesadores/intel-core-i9-11900k"><button>
                                         <span></span>
                                         <span></span>
                                         <span></span>
@@ -172,4 +170,4 @@ export const Placa = () => {
     );
   }
   
-export default Placa;
+export default Procesadores;

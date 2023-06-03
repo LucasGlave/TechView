@@ -115,6 +115,18 @@ h5{
     }
 }
 
+a{
+    text-decoration: none;
+    color: #FFF;
+    color: var(#979494);
+}
+li{
+    list-style: none;
+    margin: 2rem;
+    text-align: center;
+    justify-content: center;
+}
+
 .volverEntrar{
     button {
         position: relative;
@@ -221,4 +233,9 @@ h5{
         width: 244px;
         height: 52px;
     }
+}
+
+
+.placa, .cardRespuesta{
+    margin-top: 210px;
 }

@@ -1,4 +1,3 @@
-import './AMDrx6800XT.scss';
 import { Route, Link, useParams, Routes } from 'react-router-dom';
 
 const preguntas6800XT = [
