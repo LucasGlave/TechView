@@ -129,8 +129,8 @@ const Preguntas1660Ti = () => {
 
   const Nvidia1660Ti = () => {
     return (
-      <div className='1660Ti'>
-        <div className='Container'>
+      <div className='Container'>
+        <div className='placa'>
             <Preguntas1660Ti />
             <hr />
             <Routes>

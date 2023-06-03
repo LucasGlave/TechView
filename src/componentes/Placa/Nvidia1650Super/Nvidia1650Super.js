@@ -130,8 +130,8 @@ const Preguntas1650Super = () => {
 
   const Nvidia1650Super = () => {
     return (
-      <div className='1650Super'>
-        <div className='Container'>
+      <div className='Container'>
+        <div className='placa'>
             <Preguntas1650Super />
             <hr />
             <Routes>

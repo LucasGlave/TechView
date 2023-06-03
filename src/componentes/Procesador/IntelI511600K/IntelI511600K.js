@@ -128,8 +128,8 @@ const PreguntasI511600 = () => {
   };
   const IntelI511600K = () => {
     return (
-      <div className='1600'>
-        <div className='Container'>
+      <div className='Container'>
+        <div className='placa'>
             <PreguntasI511600 />
             <hr />
             <Routes>

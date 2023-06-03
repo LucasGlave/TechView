@@ -128,8 +128,8 @@ const PreguntasAM1PRO = () => {
   };
   const AppleM1Pro = () => {
     return (
-      <div className='5600'>
-        <div className='Container'>
+      <div className='Container'>
+        <div className='placa'>
             <PreguntasAM1PRO />
             <hr />
             <Routes>

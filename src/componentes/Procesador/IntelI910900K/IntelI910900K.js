@@ -128,8 +128,8 @@ const PreguntasI910900 = () => {
   };
   const IntelI910900 = () => {
     return (
-      <div className='0900'>
-        <div className='Container'>
+      <div className='Container'>
+        <div className='placa'>
             <PreguntasI910900 />
             <hr />
             <Routes>

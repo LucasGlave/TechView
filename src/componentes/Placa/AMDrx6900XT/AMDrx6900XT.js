@@ -130,8 +130,8 @@ const Preguntas6900XT = () => {
 
   const AMDrx6900XT = () => {
     return (
-      <div className='6900XT'>
-        <div className='Container'>
+      <div className='Container'>
+        <div className='placa'>
             <Preguntas6900XT />
             <hr />
             <Routes>

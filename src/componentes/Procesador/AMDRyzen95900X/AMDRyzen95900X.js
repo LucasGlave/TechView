@@ -128,8 +128,8 @@ const PreguntasR95900 = () => {
   };
   const AMDRyzen95900X = () => {
     return (
-      <div className='5900'>
-        <div className='Container'>
+      <div className='Container'>
+        <div className='placa'>
             <PreguntasR95900 />
             <hr />
             <Routes>

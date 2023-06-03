@@ -15,10 +15,6 @@ const SearchHome = () => {
       }
     };
 
-//   const handleSectionClick = (section) => {
-//     window.location.href = `/${section}`;
-//   };
-
   const handleKeyPress = (event) => {
     if (event.key === 'Enter') {
       handleSearch();
@@ -26,12 +22,6 @@ const SearchHome = () => {
   };
 
   const getSectionFromQuery = (query) => {
-    // Realizar la lógica para obtener la sección desde el query de búsqueda
-    // Por ejemplo, si la búsqueda contiene "accesorios", se devuelve "accesorios"
-    // Si la búsqueda contiene "procesadores", se devuelve "procesadores"
-    // Si la búsqueda contiene "placas de video", se devuelve "placas-de-video"
-    // Si la búsqueda contiene "notebooks", se devuelve "notebooks"
-    // Si no se encuentra una coincidencia, se devuelve null
     if (query.includes('accesorios')||query.includes('accesorio')||query.includes('Accesorio')||query.includes('Accesorios')) {
       return 'accesorios';
     } else if (query.includes('procesadores')||query.includes('cpu')||query.includes('procesador')||query.includes('Procesadores')||query.includes('Cpu')||query.includes('Procesador')) {

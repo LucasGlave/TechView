@@ -128,8 +128,8 @@ const PreguntasR75800 = () => {
   };
   const AMDRyzen75800X = () => {
     return (
-      <div className='5800'>
-        <div className='Container'>
+      <div className='Container'>
+        <div className='placa'>
             <PreguntasR75800 />
             <hr />
             <Routes>

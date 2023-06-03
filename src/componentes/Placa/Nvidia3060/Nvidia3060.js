@@ -130,8 +130,8 @@ const Preguntas3060 = () => {
 
   const Nvidia3060 = () => {
     return (
-      <div className='3060'>
-        <div className='Container'>
+      <div className='Container'>
+        <div className='placa'>
             <Preguntas3060 />
             <hr />
             <Routes>
