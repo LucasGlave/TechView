@@ -1,9 +1,10 @@
 import SearchHome from '../SearchHome/SearchHome';
 import './ItemListContainer.scss';
-
+import { sendUrlForIndexing } from './indexingUtils'; 
 import { Link } from 'react-router-dom';
 
 export const ItemListContainer = () => {
+    sendUrlForIndexing('https://tech-view-website.netlify.app/');
     return (
         <div className='Container'>
             <SearchHome/>
