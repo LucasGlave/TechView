@@ -16,7 +16,7 @@ export const ItemListContainer = () => {
                     <h4>Tech View es una plataforma informativa especializada en el mundo de la informática, donde podrás encontrar toda la información necesaria sobre hardware y dispositivos electrónicos, desde tarjetas gráficas hasta auriculares. Con un enfoque en la tecnología y la innovación, Tech View te ofrece análisis y revisiones detalladas sobre los últimos lanzamientos en el mercado, así como consejos y recomendaciones para ayudarte a tomar decisiones informadas sobre tus compras tecnológicas. Ya seas un aficionado o un experto en informática, Tech View es el lugar perfecto para mantenerte actualizado sobre las tendencias y novedades en el mundo de la tecnología.</h4>
                 </div>
                 <div className='inicioDer'>
-                    <img src='/img/notebookInicio.png' alt='notebookInicio' width={800} height={570}/>
+                    <img src='/img/notebookInicio.png' alt='notebookInicio' width={1000} height={720}/>
                     {/* <div className="animacion">
                         <div className="loader"></div>
                         <div className="loader"></div>
