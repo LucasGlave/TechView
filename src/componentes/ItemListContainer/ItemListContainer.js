@@ -1,10 +1,9 @@
 import SearchHome from '../SearchHome/SearchHome';
 import './ItemListContainer.scss';
-import { sendUrlForIndexing } from './indexingUtils'; 
 import { Link } from 'react-router-dom';
 
 export const ItemListContainer = () => {
-    sendUrlForIndexing('https://tech-view-website.netlify.app/');
+
     return (
         <div className='Container'>
             <SearchHome/>
@@ -25,6 +24,22 @@ export const ItemListContainer = () => {
                     </div> */}
                 </div>
             </div>
+            
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4820714602088067"
+                crossOrigin="anonymous"></script>
+            <ins className="adsbygoogle"
+                style={{
+                    display:"block", 
+                    textAlign:'center'
+                }}
+                data-ad-layout="in-article"
+                data-ad-format="fluid"
+                data-ad-client="ca-pub-4820714602088067"
+                data-ad-slot="4951345015"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+            
             <div className='categorias'>
                 <h3>SELECCIONE LA CATEGORIA QUE DESEA INVESTIGAR</h3>
                 <div className="cards">
