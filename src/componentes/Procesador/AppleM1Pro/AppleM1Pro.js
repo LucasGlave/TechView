@@ -117,7 +117,7 @@ export const PreguntaAM1PRO = () => {
 const PreguntasAM1PRO = () => {
     return (
       <div className='preguntas'>
-        <img src='/img/AMD.png' alt='AMD' width={300} height={200}/>
+        <img src='/img/APPLE.png' alt='AMD' width={300} height={200}/>
         {preguntasAM1PRO.map((pregunta) => (
           <li key={pregunta.id}>
             <Link to={`/procesadores/apple-m1-pro/${pregunta.id}`}>{pregunta.titulo}</Link>
