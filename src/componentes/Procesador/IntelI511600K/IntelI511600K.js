@@ -117,7 +117,7 @@ export const PreguntaI511600 = () => {
 const PreguntasI511600 = () => {
     return (
       <div className='preguntas'>
-        <img src='/img/INTEL.png' alt='AMD' width={300} height={200}/>
+        <img src='/img/INTEL.png' alt='AMD' width={180} height={130}/>
         {preguntasI511600.map((pregunta) => (
           <li key={pregunta.id}>
             <Link to={`/procesadores/intel-core-i5-11600k/${pregunta.id}`}>{pregunta.titulo}</Link>
