@@ -6,7 +6,9 @@ export const Procesadores = () => {
         <div className='Container'>
             
             <div className='placa'>
-            <h5>PROCESADORES</h5>
+            <div className='cardH2'>
+                    <h2>PROCESADORES</h2>
+                </div>
                 <div className='Placa'>
                     <div className='card'>
                         <div className='card__content'>

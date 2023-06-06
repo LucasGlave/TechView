@@ -7,7 +7,9 @@ export const Placa = () => {
         <div className='Container'>
             
             <div className='placa'>
-            <h5>PLACAS DE VIDEO</h5>
+                <div className='cardH2'>
+                    <h2>PLACAS DE VIDEO</h2>
+                </div>
                 <div className='Placa'>
                     <div className='card'>
                         <div className='card__content'>
