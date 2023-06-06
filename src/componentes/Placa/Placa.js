@@ -8,7 +8,7 @@ export const Placa = () => {
     return (
         <div className='Container'>
             <Helmet>
-                <title>Preguntas y Respuestas sobre Placas de Video - Soluciones y recomendaciones para un rendimiento óptimo</title>
+                <title>Tech View</title>
                 <meta name="description" content="Obtén soluciones y recomendaciones sobre placas de video en nuestra sección de preguntas y respuestas. Maximiza el rendimiento de tus juegos y proyectos de diseño con los consejos de nuestra comunidad." />
             </Helmet>
             <div className='placa'>
@@ -130,7 +130,7 @@ export const Placa = () => {
 
                     <div className='card'>
                         <div className='card__content'>
-                        <img src="./img/AMD.png" alt='logo' width="50%" height="80%"/>
+                        <img src="./img/NVIDIA.png" alt='logo' width="80%" height="100%"/>
                             
                                 <h6>NVIDIA GeForce GTX 1660 Ti</h6>
                                 <div className='volverEntrar'>
@@ -146,7 +146,7 @@ export const Placa = () => {
 
                     <div className='card'>
                         <div className='card__content'>
-                        <img src="./img/AMD.png" alt='logo' width="50%" height="80%"/>
+                        <img src="./img/NVIDIA.png" alt='logo' width="80%" height="100%"/>
                             
                                 <h6>NVIDIA GeForce GTX 1650 Super</h6>
                                 <div className='volverEntrar'>

@@ -7,7 +7,7 @@ export const Procesadores = () => {
     return (
         <div className='Container'>
             <Helmet>
-                <title>Preguntas y Respuestas sobre Procesadores - Todo lo que necesitas saber sobre potencia de procesamiento</title>
+                <title>Tech View</title>
                 <meta name="description" content="Aprende todo sobre procesadores en nuestra página de preguntas y respuestas. Encuentra información sobre potencia de procesamiento, compatibilidad y más para elegir el procesador adecuado para tus necesidades." />
             </Helmet>
             <div className='placa'>
@@ -17,7 +17,7 @@ export const Procesadores = () => {
                 <div className='Placa'>
                     <div className='card'>
                         <div className='card__content'>
-                            {/* <img src="./img/logo2.png" alt='logo' width="180" height="150"/> */}
+                        <img src="./img/AMD.png" alt='logo' width="50%" height="80%"/>
                             
                             <h6>AMD Ryzen 5 5600X</h6>
                             <div className='volverEntrar'>
@@ -32,7 +32,7 @@ export const Procesadores = () => {
                     </div>
                     <div className='card'>
                         <div className='card__content'>
-                            {/* <img src="./img/Placas/3090.jpg" alt='logo' width="180" height="150"/> */}
+                        <img src="./img/AMD.png" alt='logo' width="50%" height="80%"/>
                             
                             <h6>AMD Ryzen 7 5800X</h6>
                             <div className='volverEntrar'>
@@ -48,7 +48,7 @@ export const Procesadores = () => {
 
                     <div className='card'>
                         <div className='card__content'>
-                            {/* <img src="./img/Placas/3080.jpg" alt='logo' width="180" height="150"/> */}
+                        <img src="./img/AMD.png" alt='logo' width="50%" height="80%"/>
                             
                                 <h6>AMD Ryzen 9 5900X</h6>
                                 <div className='volverEntrar'>
@@ -64,7 +64,7 @@ export const Procesadores = () => {
 
                     <div className='card'>
                         <div className='card__content'>
-                            {/* <img src="./img/Placas/3070.jpg" alt='logo' width="180" height="150"/> */}
+                        <img src="./img/AMD.png" alt='logo' width="50%" height="80%"/>
                             
                                 <h6>AMD Ryzen 9 5950X</h6>
                                 <div className='volverEntrar'>
@@ -80,7 +80,7 @@ export const Procesadores = () => {
 
                     <div className='card'>
                         <div className='card__content'>
-                            {/* <img src="./img/Placas/3060ti.jpg" alt='logo'/> */}
+                        <img src="./img/APPLE.png" alt='logo' width="55%" height="40%"/>
                             
                                 <h6>Apple M1 Pro</h6>
                                 <div className='volverEntrar'>
@@ -96,7 +96,7 @@ export const Procesadores = () => {
 
                     <div className='card'>
                         <div className='card__content'>
-                            {/* <img src="./img/logo2.png" alt='logo' width="180" height="150"/> */}
+                        <img src="./img/INTEL.png" alt='logo' width="30%" height="40%" style={{marginTop:"10px"}}/>
                             
                                 <h6>Intel Core i5-11600K</h6>
                                 <div className='volverEntrar'>
@@ -112,6 +112,7 @@ export const Procesadores = () => {
 
                     <div className='card'>
                         <div className='card__content'>
+                        <img src="./img/INTEL.png" alt='logo' width="30%" height="40%" style={{marginTop:"10px"}}/>
                             <h6>Intel Core i7-11700K</h6>
                                 <div className='volverEntrar'>
                                     <Link to="/procesadores/intel-core-i7-11700k"><button>
@@ -126,7 +127,7 @@ export const Procesadores = () => {
 
                     <div className='card'>
                         <div className='card__content'>
-                            {/* <img src="./img/logo2.png" alt='logo' width="180" height="150"/> */}
+                        <img src="./img/INTEL.png" alt='logo' width="30%" height="40%" style={{marginTop:"10px"}}/>
                             
                                 <h6>Intel Core i9-10900K</h6>
                                 <div className='volverEntrar'>
@@ -144,7 +145,7 @@ export const Procesadores = () => {
 
                     <div className='card'>
                         <div className='card__content'>
-                            {/* <img src="./img/logo2.png" alt='logo' width="180" height="150"/> */}
+                        <img src="./img/INTEL.png" alt='logo' width="30%" height="40%" style={{marginTop:"10px"}}/>
                             
                                 <h6>Intel Core i9-11900K</h6>
                                 <div className='volverEntrar'>

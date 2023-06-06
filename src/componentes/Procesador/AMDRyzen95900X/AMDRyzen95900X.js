@@ -117,7 +117,6 @@ export const PreguntaR95900 = () => {
 const PreguntasR95900 = () => {
     return (
       <div className='preguntas'>
-        <img src='/img/AMD.png' alt='AMD' width={300} height={200}/>
         {preguntasR95900.map((pregunta) => (
           <li key={pregunta.id}>
             <Link to={`/procesadores/amd-ryzen-9-5900x/${pregunta.id}`}>{pregunta.titulo}</Link>
