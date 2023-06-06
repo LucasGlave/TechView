@@ -3,9 +3,9 @@
     background: -webkit-linear-gradient(top,#083083 2% ,#212529);
     min-height: 30vh;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 6px;
     p{
         margin: 0;
         color: rgb(100, 100, 100);
@@ -13,8 +13,33 @@
     p, a{
         margin-top: 95px;
     }
+    .textoF{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+    }
 }
 
 h2{
     color: white;
 }
+
+@media (max-width: 900px)
+    {
+        .Footer{
+            .textoF{
+                width: 60%;
+                // font-size: 3vw;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                gap: 0px;
+                a{
+                    margin-top: 0;
+                }
+            }
+        }
+    }

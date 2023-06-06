@@ -118,7 +118,6 @@ export const Pregunta6800XT = () => {
 const Preguntas6800XT = () => {
     return (
       <div className='preguntas'>
-        <img src='/img/AMD.png' alt='AMD' width={300} height={200}/>
         {preguntas6800XT.map((pregunta) => (
           <li key={pregunta.id}>
             <Link to={`/placas-de-video/rx-6800-xt/${pregunta.id}`}>{pregunta.titulo}</Link>

@@ -11,7 +11,7 @@ export const ItemListContainer = () => {
     return (
         <div className='Container'>
             <Helmet>
-                <title>Preguntas y Respuestas sobre Productos Tecnológicos - Información clave y soluciones prácticas</title>
+                <title>Tech View</title>
                 <meta name="description" content="Explora nuestra página de preguntas y respuestas sobre productos tecnológicos. Encuentra información clave y soluciones prácticas a través de preguntas frecuentes. Obtén consejos y recomendaciones para accesorios, placas de video, procesadores y notebooks." />
             </Helmet>
             <SearchHome/>
@@ -25,11 +25,6 @@ export const ItemListContainer = () => {
                 </div>
                 <div className='inicioDer'>
                     <img src='/img/notebookInicio.png' alt='notebookInicio' width={1000} height={720}/>
-                    {/* <div className="animacion">
-                        <div className="loader"></div>
-                        <div className="loader"></div>
-                        <div className="loader"></div>
-                    </div> */}
                 </div>
             </div>
             

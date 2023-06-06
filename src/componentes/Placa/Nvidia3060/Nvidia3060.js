@@ -118,7 +118,6 @@ export const Pregunta3060 = () => {
 const Preguntas3060 = () => {
     return (
       <div className='preguntas'>
-        <img src='/img/NVIDIA.png' alt='NVIDIA' width={300} height={150}/>
         {preguntas3060.map((pregunta) => (
           <li key={pregunta.id}>
             <Link to={`/placas-de-video/nvidia-3060/${pregunta.id}`}>{pregunta.titulo}</Link>

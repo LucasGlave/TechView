@@ -18,8 +18,7 @@ export const Placa = () => {
                 <div className='Placa'>
                     <div className='card'>
                         <div className='card__content'>
-                            {/* <img src="./img/Placas/3090.jpg" alt='logo' width="180" height="150"/> */}
-                            
+                            <img src="./img/NVIDIA.png" alt='logo' width="80%" height="100%"/>
                                 <h6>NVIDIA GeForce RTX 3090</h6>
                                 <div className='volverEntrar'>
                                     <Link to="/placas-de-video/nvidia-3090"><button>
@@ -34,7 +33,7 @@ export const Placa = () => {
 
                     <div className='card'>
                         <div className='card__content'>
-                            {/* <img src="./img/Placas/3080.jpg" alt='logo' width="180" height="150"/> */}
+                        <img src="./img/NVIDIA.png" alt='logo' width="80%" height="100%"/>
                             
                                 <h6>NVIDIA GeForce RTX 3080</h6>
                                 <div className='volverEntrar'>
@@ -50,7 +49,7 @@ export const Placa = () => {
 
                     <div className='card'>
                         <div className='card__content'>
-                            {/* <img src="./img/Placas/3070.jpg" alt='logo' width="180" height="150"/> */}
+                        <img src="./img/NVIDIA.png" alt='logo' width="80%" height="100%"/>
                             
                                 <h6>NVIDIA GeForce RTX 3070</h6>
                                 <div className='volverEntrar'>
@@ -66,7 +65,7 @@ export const Placa = () => {
 
                     <div className='card'>
                         <div className='card__content'>
-                            {/* <img src="./img/Placas/3060ti.jpg" alt='logo'/> */}
+                        <img src="./img/NVIDIA.png" alt='logo' width="80%" height="100%"/>
                             
                                 <h6>NVIDIA GeForce RTX 3060 Ti</h6>
                                 <div className='volverEntrar'>
@@ -82,7 +81,7 @@ export const Placa = () => {
 
                     <div className='card'>
                         <div className='card__content'>
-                            {/* <img src="./img/logo2.png" alt='logo' width="180" height="150"/> */}
+                        <img src="./img/AMD.png" alt='logo' width="50%" height="80%"/>
                             
                                 <h6>AMD Radeon RX 6900 XT</h6>
                                 <div className='volverEntrar'>
@@ -98,6 +97,7 @@ export const Placa = () => {
 
                     <div className='card'>
                         <div className='card__content'>
+                        <img src="./img/AMD.png" alt='logo' width="50%" height="80%"/>
                             <h6>AMD Radeon RX 6800 XT</h6>
                                 <div className='volverEntrar'>
                                     <Link to="/placas-de-video/rx-6800-xt"><button>
@@ -112,7 +112,7 @@ export const Placa = () => {
 
                     <div className='card'>
                         <div className='card__content'>
-                            {/* <img src="./img/logo2.png" alt='logo' width="180" height="150"/> */}
+                        <img src="./img/AMD.png" alt='logo' width="50%" height="80%"/>
                             
                                 <h6>AMD Radeon RX 6800</h6>
                                 <div className='volverEntrar'>
@@ -130,7 +130,7 @@ export const Placa = () => {
 
                     <div className='card'>
                         <div className='card__content'>
-                            {/* <img src="./img/logo2.png" alt='logo' width="180" height="150"/> */}
+                        <img src="./img/AMD.png" alt='logo' width="50%" height="80%"/>
                             
                                 <h6>NVIDIA GeForce GTX 1660 Ti</h6>
                                 <div className='volverEntrar'>
@@ -146,7 +146,7 @@ export const Placa = () => {
 
                     <div className='card'>
                         <div className='card__content'>
-                            {/* <img src="./img/logo2.png" alt='logo' width="180" height="150"/> */}
+                        <img src="./img/AMD.png" alt='logo' width="50%" height="80%"/>
                             
                                 <h6>NVIDIA GeForce GTX 1650 Super</h6>
                                 <div className='volverEntrar'>
