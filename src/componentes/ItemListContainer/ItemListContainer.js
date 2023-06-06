@@ -1,11 +1,19 @@
 import SearchHome from '../SearchHome/SearchHome';
 import './ItemListContainer.scss';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
+
+
+
 
 export const ItemListContainer = () => {
 
     return (
         <div className='Container'>
+            <Helmet>
+                <title>Preguntas y Respuestas sobre Productos Tecnológicos - Información clave y soluciones prácticas</title>
+                <meta name="description" content="Explora nuestra página de preguntas y respuestas sobre productos tecnológicos. Encuentra información clave y soluciones prácticas a través de preguntas frecuentes. Obtén consejos y recomendaciones para accesorios, placas de video, procesadores y notebooks." />
+            </Helmet>
             <SearchHome/>
             <div className='inicio'>
                 <div className='inicioIzq'>

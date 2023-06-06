@@ -1,10 +1,15 @@
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
+
 
 
 export const Procesadores = () => {
     return (
         <div className='Container'>
-            
+            <Helmet>
+                <title>Preguntas y Respuestas sobre Procesadores - Todo lo que necesitas saber sobre potencia de procesamiento</title>
+                <meta name="description" content="Aprende todo sobre procesadores en nuestra página de preguntas y respuestas. Encuentra información sobre potencia de procesamiento, compatibilidad y más para elegir el procesador adecuado para tus necesidades." />
+            </Helmet>
             <div className='placa'>
             <div className='cardH2'>
                     <h2>PROCESADORES</h2>

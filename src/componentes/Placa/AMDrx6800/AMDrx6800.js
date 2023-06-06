@@ -1,5 +1,6 @@
 import { Route, Link, useParams, Routes } from 'react-router-dom';
 
+
 const preguntas6800 = [
     {
       id: 'pregunta1',

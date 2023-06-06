@@ -1,11 +1,16 @@
 import './Placa.scss';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
+
 
 
 export const Placa = () => {
     return (
         <div className='Container'>
-            
+            <Helmet>
+                <title>Preguntas y Respuestas sobre Placas de Video - Soluciones y recomendaciones para un rendimiento óptimo</title>
+                <meta name="description" content="Obtén soluciones y recomendaciones sobre placas de video en nuestra sección de preguntas y respuestas. Maximiza el rendimiento de tus juegos y proyectos de diseño con los consejos de nuestra comunidad." />
+            </Helmet>
             <div className='placa'>
                 <div className='cardH2'>
                     <h2>PLACAS DE VIDEO</h2>
