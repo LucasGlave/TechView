@@ -11,6 +11,14 @@
         justify-content: space-evenly;
         padding: 3rem;
         margin-top: 210px;
+
+    }
+}
+.notebook{
+    .volverEntrar{
+        button{
+            margin-bottom: 0px;
+        }
     }
 }
 @media (max-width: 900px)

@@ -21,7 +21,7 @@ export const Notebook = () => {
                     <div className='Placa'>
                         <div className='card'>
                             <div className='card__content'>
-                                <img src="./img/DELL.png" alt='logo' width="20%" height="40%"/>
+                                <img src="./img/DELL.png" alt='logo' width="20%" height="38%"/>
                                     <h6>Dell XPS 13</h6>
                                     <div className='volverEntrar'>
                                         <Link to="/notebooks/dell-xps13"><button>
