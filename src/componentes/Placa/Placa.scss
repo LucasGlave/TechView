@@ -54,8 +54,10 @@ h2{
     margin-top: 5rem;
     .card {
         margin: 10px 3rem 20px 3rem;
-        width: calc(24% - 10px);
-        height: 13rem;
+        width: 25rem;
+        height: 14rem;
+        // width: 20rem;
+        // height: 11rem;
         border-radius: 20px;
         box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
         background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
@@ -92,7 +94,7 @@ h2{
     align-items: center;
     justify-content: space-evenly;
     padding: 3rem;
-    margin-top: 6rem;
+    // margin: 27rem 27rem 0 27rem;
 }
 .adelanteAtras{
     display: flex;
@@ -283,3 +285,12 @@ li{
 .placa, .cardRespuesta{
     margin-top: 210px;
 }
+
+@media screen and (max-width: 500px)
+    {
+        .adelanteAtras{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+

@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import Procesadores from '../componentes/Procesador/Procesadores';
 import Placa from '../componentes/Placa/Placa';
-import Accesorios from '../componentes/Accesorios/Accesorios';
+import CuelloDeBotella from '../componentes/CuelloDeBotella/CuelloDeBotella';
 import Notebook from '../componentes/Notebook/Notebook';
 import ItemListContainer from '../componentes/ItemListContainer/ItemListContainer';
 import NavBar from '../componentes/NavBar/NavBar'; 
@@ -27,6 +27,16 @@ import IntelI711700K, { PreguntaI711700 } from '../componentes/Procesador/IntelI
 import IntelI910900, { PreguntaI910900 } from '../componentes/Procesador/IntelI910900K/IntelI910900K';
 import IntelI911900, { PreguntaI911900 } from '../componentes/Procesador/IntelI911900k/IntelI911900k';
 
+import AcerPredatorHelios300, { PreguntaH300 } from '../componentes/Notebook/AcerPredatorHelios300';
+import AsusROGZephyrusG14, { PreguntaZG14 } from '../componentes/Notebook/AsusROGZephyrusG14';
+import DellXPS13, { PreguntaXPS13 } from '../componentes/Notebook/DellXPS13';
+import HPSpectrex360, { PreguntaX360 } from '../componentes/Notebook/HPSpectrex360';
+import LenovoThinkPadX1Carbon, { PreguntaTPC } from '../componentes/Notebook/LenovoThinkPadX1Carbon';
+import LenovoLegion7, {  PreguntaLEGION7 } from '../componentes/Notebook/LenovoLegion7';
+import MicrosoftSurfaceLaptop4, { PreguntaSL4 } from '../componentes/Notebook/MicrosoftSurfaceLaptop4';
+import MSIGS66Stealth, { Pregunta66S } from '../componentes/Notebook/MSIGS66Stealth';
+import RazerBlade15, { PreguntaB15 } from '../componentes/Notebook/RazerBlade15';
+
 
 
 
@@ -44,8 +54,8 @@ export const AppRouter = () => {
                 <Route path='/' element={<ItemListContainer/>}/>
                 <Route path='/procesadores' element={<Procesadores/>}/>
                 <Route path='/placas-de-video' element={<Placa/>}/>
-                <Route path='/accesorios' element={<Accesorios/>}/>
-                <Route path='/notebook' element={<Notebook/>}/>
+                <Route path='/cuello-de-botella' element={<CuelloDeBotella/>}/>
+                <Route path='/notebooks' element={<Notebook/>}/>
                 {/* <Route path='/Nvidia3090' element={<Nvidia3090/>}/> */}
                 <Route path="/placas-de-video/nvidia-3090/*" element={<Nvidia3090 />} />
                 <Route path="/placas-de-video/nvidia-3090/:preguntaId" element={<Pregunta3090 />} />
@@ -102,7 +112,32 @@ export const AppRouter = () => {
                 <Route path="/procesadores/intel-core-i9-11900k/:preguntaId" element={<PreguntaI911900 />} />
 
 
+                <Route path="/notebooks/helios-300/*" element={<AcerPredatorHelios300 />} />
+                <Route path="/notebooks/helios-300/:preguntaId" element={<PreguntaH300 />} />
 
+                <Route path="/notebooks/asus-rog-g14/*" element={<AsusROGZephyrusG14 />} />
+                <Route path="/notebooks/asus-rog-g14/:preguntaId" element={<PreguntaZG14 />} />
+
+                <Route path="/notebooks/dell-xps13/*" element={<DellXPS13 />} />
+                <Route path="/notebooks/dell-xps13/:preguntaId" element={<PreguntaXPS13 />} />
+
+                <Route path="/notebooks/hp-spectre-x360/*" element={<HPSpectrex360 />} />
+                <Route path="/notebooks/hp-spectre-x360/:preguntaId" element={<PreguntaX360 />} />
+
+                <Route path="/notebooks/lenovo-thinkpad-x1carbon/*" element={<LenovoThinkPadX1Carbon />} />
+                <Route path="/notebooks/lenovo-thinkpad-x1carbon/:preguntaId" element={<PreguntaTPC />} />
+
+                <Route path="/notebooks/lenovo-legion-7/*" element={<LenovoLegion7 />} />
+                <Route path="/notebooks/lenovo-legion-7/:preguntaId" element={<PreguntaLEGION7 />} />
+
+                <Route path="/notebooks/microsoft-surface-laptop4/*" element={<MicrosoftSurfaceLaptop4 />} />
+                <Route path="/notebooks/microsoft-surface-laptop4/:preguntaId" element={<PreguntaSL4 />} />
+                
+                <Route path="/notebooks/msi-gs66stealth/*" element={<MSIGS66Stealth />} />
+                <Route path="/notebooks/msi-gs66stealth/:preguntaId" element={<Pregunta66S />} />
+                
+                <Route path="/notebooks/razer-blade15/*" element={<RazerBlade15 />} />
+                <Route path="/notebooks/razer-blade15/:preguntaId" element={<PreguntaB15 />} />
 
                 <Route path='*' element={<Navigate to= "/"/>}/>
             </Routes>

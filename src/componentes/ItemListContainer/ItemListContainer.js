@@ -1,7 +1,7 @@
 import SearchHome from '../SearchHome/SearchHome';
 import './ItemListContainer.scss';
 import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 
 
@@ -10,10 +10,12 @@ export const ItemListContainer = () => {
 
     return (
         <div className='Container'>
-            <Helmet>
-                <title>Tech View</title>
-                <meta name="description" content="Explora nuestra página de preguntas y respuestas sobre productos tecnológicos. Encuentra información clave y soluciones prácticas a través de preguntas frecuentes. Obtén consejos y recomendaciones para accesorios, placas de video, procesadores y notebooks." />
-            </Helmet>
+            <HelmetProvider>
+                <Helmet>
+                    <title>Tech View</title>
+                    <meta name="description" content="Explora nuestra página de preguntas y respuestas sobre productos tecnológicos. Encuentra información clave y soluciones prácticas a través de preguntas frecuentes. Obtén consejos y recomendaciones para accesorios, placas de video, procesadores y notebooks." />
+                </Helmet>
+            </HelmetProvider>
             <SearchHome/>
             <div className='inicio'>
                 <div className='inicioIzq'>
@@ -46,12 +48,12 @@ export const ItemListContainer = () => {
             <div className='categorias'>
                 <h3>SELECCIONE LA CATEGORIA QUE DESEA INVESTIGAR</h3>
                 <div className="cards">
-                    <Link to="/accesorios">
+                    <Link to="/cuello-de-botella">
                         <div className='content-show'>
                             <div>
-                                <img src='./img/teclado.jpg' alt='Accesorios'/>
+                                <img src='./img/cuellodebotella.jpg' alt='Accesorios'/>
                                 <div className='title-box'></div>
-                                <div className='name'>Accesorios</div>
+                                <div className='name'>Cuello De Botella</div>
                             </div>    
                         </div>
                     </Link>

@@ -1,0 +1,25 @@
+.Container{
+    .cardRespuestaNotebook{
+        display: flex;
+        width: 42rem;
+        height: 51rem;
+        border-radius: 30px;
+        background: #17294c;
+        box-shadow: 15px 15px 30px rgb(1 1 12 / 69%), -15px -15px 30px rgb(0 0 0 / 44%);
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 3rem;
+        margin-top: 210px;
+    }
+}
+@media (max-width: 900px)
+    {   
+        .Container{
+            .cardRespuestaNotebook{
+                width: 80%;
+                height: 100%;
+            }
+        }
+        
+    }

@@ -1,15 +1,18 @@
 import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+
 
 
 
 export const Procesadores = () => {
     return (
         <div className='Container'>
-            <Helmet>
-                <title>Tech View</title>
-                <meta name="description" content="Aprende todo sobre procesadores en nuestra página de preguntas y respuestas. Encuentra información sobre potencia de procesamiento, compatibilidad y más para elegir el procesador adecuado para tus necesidades." />
-            </Helmet>
+            <HelmetProvider>
+                <Helmet>
+                    <title>Tech View</title>
+                    <meta name="description" content="Aprende todo sobre procesadores en nuestra página de preguntas y respuestas. Encuentra información sobre potencia de procesamiento, compatibilidad y más para elegir el procesador adecuado para tus necesidades." />
+                </Helmet>
+            </HelmetProvider>
             <div className='placa'>
             <div className='cardH2'>
                     <h2>PROCESADORES</h2>
