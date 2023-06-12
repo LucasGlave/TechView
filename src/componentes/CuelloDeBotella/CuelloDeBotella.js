@@ -1,4 +1,5 @@
 import './CuelloDeBotella.scss';
+import { Link } from 'react-router-dom';
 
 export const CuelloDeBotella = () => {
     return (
@@ -12,6 +13,16 @@ export const CuelloDeBotella = () => {
                         </div>
                         <div className='cuello'>
                             <h3>PROXIMAMENTE</h3>
+                        </div>
+                        <div className='volverEntrar' style={{marginTop:'21rem'}}>
+                            <div className='volver'>
+                                <Link to="/"><button>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span> VOLVER
+                                    </button></Link>
+                            </div>
                         </div>
                     </div>
                 </div>
