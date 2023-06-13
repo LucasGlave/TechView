@@ -36,6 +36,8 @@ import LenovoLegion7, {  PreguntaLEGION7 } from '../componentes/Notebook/LenovoL
 import MicrosoftSurfaceLaptop4, { PreguntaSL4 } from '../componentes/Notebook/MicrosoftSurfaceLaptop4';
 import MSIGS66Stealth, { Pregunta66S } from '../componentes/Notebook/MSIGS66Stealth';
 import RazerBlade15, { PreguntaB15 } from '../componentes/Notebook/RazerBlade15';
+import CuelloPlaca from '../componentes/CuelloDeBotella/CuelloPlaca';
+import CuelloProcesador from '../componentes/CuelloDeBotella/CuelloProcesador';
 
 
 
@@ -56,6 +58,8 @@ export const AppRouter = () => {
                 <Route path='/placas-de-video' element={<Placa/>}/>
                 <Route path='/cuello-de-botella' element={<CuelloDeBotella/>}/>
                 <Route path='/notebooks' element={<Notebook/>}/>
+                <Route path='/cuello-de-botella/placas-de-video' element={<CuelloPlaca/>}/>
+                <Route path='/cuello-de-botella/procesadores' element={<CuelloProcesador/>}/>
                 {/* <Route path='/Nvidia3090' element={<Nvidia3090/>}/> */}
                 <Route path="/placas-de-video/nvidia-3090/*" element={<Nvidia3090 />} />
                 <Route path="/placas-de-video/nvidia-3090/:preguntaId" element={<Pregunta3090 />} />

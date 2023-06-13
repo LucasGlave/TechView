@@ -13,8 +13,8 @@ const preguntas3090 = [
     },
     {
       id: 'pregunta3',
-      titulo: '¿Es compatible la AMD Radeon RX 6800 XT con la tecnología de trazado de rayos (ray tracing)?',
-      respuesta: 'Sí, la RX 6800 XT es compatible con la tecnología de trazado de rayos. Puede ofrecer efectos visuales mejorados y una iluminación más realista en juegos compatibles con ray tracing.',
+      titulo: '¿Cuál es la capacidad de memoria de la NVIDIA GeForce RTX 3090?',
+      respuesta: 'La NVIDIA GeForce RTX 3090 cuenta con una impresionante capacidad de memoria de 24 gigabytes (GB) de tipo GDDR6X. Esta amplia capacidad de memoria permite un rendimiento excepcional en tareas que requieren un uso intensivo de memoria, como renderizado en 3D, edición de video y juegos con resoluciones ultraaltas. La amplia capacidad de memoria de la RTX 3090 también la convierte en una opción ideal para profesionales creativos y entusiastas que buscan un rendimiento de vanguardia en sus aplicaciones y proyectos.',
     },
     {
       id: 'pregunta4',

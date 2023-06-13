@@ -1,12 +1,93 @@
-.Container{
-    .cuello{
-        margin-top: 200px;
-        h3{
-            font-family:'Archivo', sans-serif;
-            font-size: 5vw;
-            margin-bottom: 28px;
-            color: #ffffff26;
+.CuelloBotellaProd{
+    .volverEntrar{
+        position: absolute;
+        button{
+            top: 43rem;
+            position: relative;
         }
     }
 }
 
+.CuelloBotellaProd{
+    .placa{
+        width: 95vw;
+        .cuello{
+            margin-top: 31px;
+            display: flex;
+            flex-direction: column;
+            width: 54rem;
+            gap: 3rem;
+            align-items: center;
+            h4{
+                text-align: center;
+            }
+            .productCuello{
+                display: flex;
+                flex-direction: row;
+                width: 65rem;
+                .card {
+                    margin: 10px 3rem 20px 3rem;
+                    width: 50rem;
+                    height: 22rem;
+                    border-radius: 20px;
+                    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+                    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+                    img{
+                        border-radius: 15px;
+                    }
+                    .textB{
+                        margin: 20px;
+                    }
+                    h1{
+                        font-family:'Quicksand', sans-serif;
+                        font-size: 1.2rem;
+                    }
+                }
+                .card__content {
+                    background: rgb(5, 6, 45);
+                    border-radius: 17px;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    position: relative;
+                    h6{
+                        position: absolute;
+                        top: 78%;
+                    }
+                    button{
+                        margin: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.CuelloDeBotella{
+    h5{
+        font-family: "Archivo", sans-serif;
+        font-size: 7vw;
+        margin: 175px;
+        color: #ffffff40;
+    }
+}
+
+.todo{
+    .dropdown{
+        background-color: #05062d;
+        width: 11.3rem;
+    }
+    .menu{
+        background-color: #05062d;
+        .drop{
+            color: white;
+            background-color: #05062d;
+        }
+        .drop:hover{
+            background-color: #0a58ca;
+        }
+    }
+}
