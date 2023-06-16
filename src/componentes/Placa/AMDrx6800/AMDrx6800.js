@@ -1,4 +1,5 @@
 import { Route, Link, useParams, Routes } from 'react-router-dom';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 
 const preguntas6800 = [
@@ -64,6 +65,12 @@ export const Pregunta6800 = () => {
     return (
         
         <div className='Container'>
+          <HelmetProvider>
+                <Helmet>
+                    <title>Tech View</title>
+                    <meta name="description" content={preguntaActual.titulo} />
+                </Helmet>
+            </HelmetProvider>
           <div className='cardRespuesta'>
             <h3>{preguntaActual.titulo}</h3>
             <p>{preguntaActual.respuesta}</p>
@@ -119,6 +126,7 @@ const Preguntas6800 = () => {
     return (
       <div className='preguntas'>
         {preguntas6800.map((pregunta) => (
+          
           <li key={pregunta.id}>
             <Link to={`/placas-de-video/rx-6800/${pregunta.id}`}>{pregunta.titulo}</Link>
           </li>

@@ -1,93 +1,261 @@
 .CuelloBotellaProd{
     .volverEntrar{
-        position: absolute;
-        button{
-            top: 43rem;
-            position: relative;
+        background-position: bottom;
+    }
+    
+}
+
+.info{
+    button {
+        position: relative;
+        outline: none;
+        border: 1px solid #1c1a1a;
+        background: #17294c;
+        color: #ffffff;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 14px;
+        overflow: hidden;
+        transition: 0.2s;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: 100;
+        margin: 8px;
+        width: 39vw;
+        height: 5vh;
+    }
+    .volver{
+        align-items: center;
+        .card{
+            background-color: #192843;
+            width: 100%;
+            box-shadow: 15px 15px 30px rgb(1 1 12 / 69%), -15px -15px 30px rgb(0 0 0 / 44%);
+            .card-body{
+                padding: 1rem 6vw;
+            }
+            
+        }
+    }
+   
+   button:hover {
+    box-shadow: 0 0 10px #ae00ff, 0 0 25px #001eff, 0 0 50px #ae00ff;
+    transition-delay: 0.6s;
+   }
+   
+   button span {
+    position: absolute;
+   }
+   
+   button span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #ae00ff);
+   }
+   
+   button:hover span:nth-child(1) {
+    left: 100%;
+    transition: 0.7s;
+   }
+   
+   button span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #001eff);
+   }
+   
+   button:hover span:nth-child(3) {
+    right: 100%;
+    transition: 0.7s;
+    transition-delay: 0.35s;
+   }
+   
+   button span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #ae00ff);
+   }
+   
+   button:hover span:nth-child(2) {
+    top: 100%;
+    transition: 0.7s;
+    transition-delay: 0.17s;
+   }
+   
+   button span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #001eff);
+   }
+   
+   button:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 0.7s;
+    transition-delay: 0.52s;
+   }
+   
+   button:active {
+    background: #ae00af;
+    background: linear-gradient(to top right, #ae00af, #001eff);
+    color: #bfbfbf;
+    box-shadow: 0 0 8px #ae00ff, 0 0 8px #001eff, 0 0 8px #ae00ff;
+    transition: 0.1s;
+   }
+   
+   button:active span:nth-child(1) 
+   span:nth-child(2) 
+   span:nth-child(2) 
+   span:nth-child(2) {
+    transition: none;
+    transition-delay: none;
+   }
+}
+
+.placa{
+    .cuello{
+        
+        margin-top: 31px;
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+        gap: 3rem;
+        align-items: center;
+        h4{
+            text-align: center;
+        }
+        .productCuello{
+            display: flex;
+            flex-direction: row;
+            width: 65rem;
+            .card {
+                margin: 10px 3rem 20px 3rem;
+                width: 50rem;
+                height: 22rem;
+                border-radius: 20px;
+                box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+                background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+                img{
+                    border-radius: 15px;
+                }
+                .textB{
+                    margin: 20px;
+                }
+                h1{
+                    font-family:'Quicksand', sans-serif;
+                    font-size: 1.2rem;
+                }
+            }
+            .card__content {
+                background: rgb(5, 6, 45);
+                border-radius: 17px;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                position: relative;
+                h6{
+                    position: absolute;
+                    top: 78%;
+                }
+                button{
+                    margin: 10px;
+                }
+            }
         }
     }
 }
 
 .CuelloBotellaProd{
-    .placa{
-        width: 95vw;
-        .cuello{
-            margin-top: 31px;
-            display: flex;
-            flex-direction: column;
-            width: 54rem;
-            gap: 3rem;
-            align-items: center;
-            h4{
-                text-align: center;
-            }
-            .productCuello{
-                display: flex;
-                flex-direction: row;
-                width: 65rem;
-                .card {
-                    margin: 10px 3rem 20px 3rem;
-                    width: 50rem;
-                    height: 22rem;
-                    border-radius: 20px;
-                    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
-                    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
-                    img{
-                        border-radius: 15px;
-                    }
-                    .textB{
-                        margin: 20px;
-                    }
-                    h1{
-                        font-family:'Quicksand', sans-serif;
-                        font-size: 1.2rem;
-                    }
-                }
-                .card__content {
-                    background: rgb(5, 6, 45);
-                    border-radius: 17px;
-                    width: 100%;
-                    height: 100%;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-evenly;
-                    align-items: center;
-                    position: relative;
-                    h6{
-                        position: absolute;
-                        top: 78%;
-                    }
-                    button{
-                        margin: 10px;
-                    }
-                }
-            }
-        }
+    h3{
+        margin-top: 28px;
     }
 }
 
-.CuelloDeBotella{
-    h5{
-        font-family: "Archivo", sans-serif;
-        font-size: 7vw;
-        margin: 175px;
-        color: #ffffff40;
-    }
+.containerCuello{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+ul{
+    padding-right: 2rem;
+}
+li{
+    list-style: none;
+    margin: 2rem;
+    text-align: center;
+    justify-content: center;
+    width: 52vw;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+  }
+  
+  .fade-in.active {
+    opacity: 1;
+  }
 
 .todo{
     .dropdown{
         background-color: #05062d;
-        width: 11.3rem;
+        width: 16.5rem;
+        
     }
     .menu{
         background-color: #05062d;
+        box-shadow: rgb(14 14 14 / 67%) 0 15px 30px 5px;
+        max-height: 55rem;
+        overflow: hidden;
+        width: 16.5rem;
+        transition: max-height 0.5s ease-in-out; /* Ajusta la duración de la transición según tus preferencias */
+        .menu.show {
+            max-height: 300px; /* Ajusta la altura máxima según tus necesidades */
+        }
         .drop{
             color: white;
             background-color: #05062d;
+            text-align: center;
         }
         .drop:hover{
             background-color: #0a58ca;
         }
     }
+}
+.dropdown-transition-enter {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  
+  .dropdown-transition-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 300ms, transform 300ms;
+  }
+  
+  .dropdown-transition-exit {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .dropdown-transition-exit-active {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 300ms, transform 300ms;
+  }       
+
+  .CuelloDeBotella h5 {
+    color: hsla(0,0%,100%,.251);
+    font-family: Archivo,sans-serif;
+    font-size: 7vw;
+    margin: 175px;
 }

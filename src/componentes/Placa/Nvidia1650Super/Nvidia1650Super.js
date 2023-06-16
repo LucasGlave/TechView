@@ -1,4 +1,5 @@
 import { Route, Link, useParams, Routes } from 'react-router-dom';
+import { HelmetProvider, Helmet } from 'react-helmet-async';
 
 const preguntas1650Super = [
     {
@@ -64,6 +65,12 @@ export const Pregunta1650Super = () => {
   return (
       
       <div className='Container'>
+        <HelmetProvider>
+            <Helmet>
+                <title>Tech View</title>
+                <meta name="description" content={preguntaActual.titulo} />
+            </Helmet>
+        </HelmetProvider>
         <div className='cardRespuesta'>
           <h3>{preguntaActual.titulo}</h3>
           <p>{preguntaActual.respuesta}</p>
