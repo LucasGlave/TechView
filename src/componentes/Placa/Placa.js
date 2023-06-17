@@ -174,7 +174,7 @@ export const Placa = () => {
                     </div>
                 </div>
             </div>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4820714602088067"
+            {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4820714602088067"
                 crossOrigin="anonymous"></script>
             <ins className="adsbygoogle"
                 style={{
@@ -188,7 +188,7 @@ export const Placa = () => {
             </ins>
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
+            </script> */}
         </div>
         
     );

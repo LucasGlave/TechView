@@ -1,4 +1,5 @@
 import { Route, Link, useParams, Routes } from 'react-router-dom';
+import { Card } from 'react-bootstrap';
 
 
 const preguntasTPC = [
@@ -119,9 +120,11 @@ const PreguntasTPC = () => {
     return (
       <div className='preguntas'>
         {preguntasTPC.map((pregunta) => (
-          <li key={pregunta.id}>
-            <Link to={`/notebooks/lenovo-thinkpad-x1carbon/${pregunta.id}`}>{pregunta.titulo}</Link>
-          </li>
+          <Card className='preguntasCard' key={pregunta.id}>
+            <li key={pregunta.id}>
+              <Link to={`/notebooks/lenovo-thinkpad-x1carbon/${pregunta.id}`}>{pregunta.titulo}</Link>
+            </li>
+          </Card>
         ))}
         <div className='volverEntrar' style={{margin:'30px'}}>
           <div className='volver'>

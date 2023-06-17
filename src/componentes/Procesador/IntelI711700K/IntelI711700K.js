@@ -1,4 +1,5 @@
 import { Route, Link, useParams, Routes } from 'react-router-dom';
+import { Card } from 'react-bootstrap';
 
 const preguntasI711700 = [
     {
@@ -118,9 +119,11 @@ const PreguntasI711700 = () => {
     return (
       <div className='preguntas'>
         {preguntasI711700.map((pregunta) => (
-          <li key={pregunta.id}>
-            <Link to={`/procesadores/intel-core-i7-11700k/${pregunta.id}`}>{pregunta.titulo}</Link>
-          </li>
+          <Card className='preguntasCard' key={pregunta.id}>
+            <li key={pregunta.id}>
+              <Link to={`/procesadores/intel-core-i7-11700k/${pregunta.id}`}>{pregunta.titulo}</Link>
+            </li>
+          </Card>
         ))}
         <div className='volverEntrar' style={{margin:'30px'}}>
           <div className='volver'>

@@ -30,7 +30,7 @@ export const ItemListContainer = () => {
                 </div>
             </div>
             
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4820714602088067"
+            {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4820714602088067"
                 crossOrigin="anonymous"></script>
             <ins className="adsbygoogle"
                 style={{
@@ -43,7 +43,7 @@ export const ItemListContainer = () => {
                 data-ad-slot="4951345015"></ins>
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
+            </script> */}
             
             <div className='categorias'>
                 <h3>SELECCIONE LA CATEGORIA QUE DESEA INVESTIGAR</h3>

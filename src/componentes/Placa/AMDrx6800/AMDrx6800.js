@@ -1,5 +1,6 @@
 import { Route, Link, useParams, Routes } from 'react-router-dom';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { Card } from 'react-bootstrap';
 
 
 const preguntas6800 = [
@@ -126,10 +127,11 @@ const Preguntas6800 = () => {
     return (
       <div className='preguntas'>
         {preguntas6800.map((pregunta) => (
-          
-          <li key={pregunta.id}>
-            <Link to={`/placas-de-video/rx-6800/${pregunta.id}`}>{pregunta.titulo}</Link>
-          </li>
+          <Card className='preguntasCard' key={pregunta.id}>
+            <li>
+              <Link to={`/placas-de-video/rx-6800/${pregunta.id}`}>{pregunta.titulo}</Link>
+            </li>
+          </Card>
         ))}
         <div className='volverEntrar' style={{margin:'30px'}}>
           <div className='volver'>

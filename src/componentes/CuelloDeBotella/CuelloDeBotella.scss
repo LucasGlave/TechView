@@ -6,6 +6,8 @@
 }
 
 .info{
+    // width: 100%;
+    // margin: 5%;
     button {
         position: relative;
         outline: none;
@@ -120,11 +122,10 @@
 
 .placa{
     .cuello{
-        
         margin-top: 31px;
         display: flex;
         flex-direction: column;
-        width: 40vw;
+        width: 76vw;
         gap: 3rem;
         align-items: center;
         h4{
@@ -134,6 +135,7 @@
             display: flex;
             flex-direction: row;
             width: 65rem;
+            
             .card {
                 margin: 10px 3rem 20px 3rem;
                 width: 50rem;
@@ -184,9 +186,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    li:hover {
+        transform: scale(1.06);
+        a{
+          color: white;
+        }
+    }
 }
 ul{
-    padding-right: 2rem;
+    padding-left: 0rem;
 }
 li{
     list-style: none;
@@ -253,9 +261,69 @@ li{
     transition: opacity 300ms, transform 300ms;
   }       
 
-  .CuelloDeBotella h5 {
-    color: hsla(0,0%,100%,.251);
-    font-family: Archivo,sans-serif;
-    font-size: 7vw;
-    margin: 175px;
-}
+//   .CuelloDeBotella h5 {
+//     color: hsla(0,0%,100%,.251);
+//     font-family: Archivo,sans-serif;
+//     font-size: 7vw;
+//     margin: 175px;
+// }
+
+@media screen and (max-width: 1060px)
+    {
+        .placa{
+            .cuello{
+                .productCuello {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 0;
+                    .card{
+                        width: 32rem;
+                        height: 24rem;
+                        .card__content{
+                            h6{
+                                top: 78%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+@media screen and (max-width: 600px)
+    {
+        .placa{
+            .cuello{
+                .productCuello {
+                    .card{
+                        width: 76vw;
+                        height: 67vw;
+                        .card__content{
+                            h6{
+                                top: 70%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .info{
+            button {
+                height: 8vh;
+            }
+            .volver{
+                .card{
+                    width: 76vw;
+                }
+            }
+        }
+        .containerCuello{
+            li:hover {
+                transform: scale(0.95);
+                a{
+                  color: white;
+                }
+            }
+        }
+    }

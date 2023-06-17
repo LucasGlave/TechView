@@ -1,4 +1,5 @@
 import { Route, Link, useParams, Routes } from 'react-router-dom';
+import { Card } from 'react-bootstrap';
 
 
 const preguntasLEGION7 = [
@@ -119,9 +120,11 @@ const PreguntasLEGION7 = () => {
     return (
       <div className='preguntas'>
         {preguntasLEGION7.map((pregunta) => (
-          <li key={pregunta.id}>
-            <Link to={`/notebooks/lenovo-legion-7/${pregunta.id}`}>{pregunta.titulo}</Link>
-          </li>
+          <Card className='preguntasCard' key={pregunta.id}>
+            <li>
+              <Link to={`/notebooks/lenovo-legion-7/${pregunta.id}`}>{pregunta.titulo}</Link>
+            </li>
+          </Card>
         ))}
         <div className='volverEntrar' style={{margin:'30px'}}>
           <div className='volver'>
