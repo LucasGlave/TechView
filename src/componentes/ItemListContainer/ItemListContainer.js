@@ -51,7 +51,7 @@ export const ItemListContainer = () => {
                     <Link to="/cuello-de-botella">
                         <div className='content-show'>
                             <div>
-                                <img src='./img/cuellodebotella.jpg' alt='Accesorios'/>
+                                <img loading='lazy' src='./img/cuellodebotella.jpg' alt='Accesorios'/>
                                 <div className='title-box'></div>
                                 <div className='name'>Cuello De Botella</div>
                             </div>    
@@ -60,7 +60,7 @@ export const ItemListContainer = () => {
                     <Link to="/procesadores">
                         <div className='content-show'>
                             <div>
-                                <img src='./img/cpu.jpg' alt='cpu'/>
+                                <img loading='lazy' src='./img/cpu.jpg' alt='cpu'/>
                                 <div className='title-box'></div>
                                 <div className='name'>Procesadores</div>
                             </div>
@@ -69,7 +69,7 @@ export const ItemListContainer = () => {
                     <Link to="/placas-de-video">
                         <div className='content-show'>
                             <div>
-                                <img src='./img/placa.jpg' alt='notebook'/>
+                                <img loading='lazy' src='./img/placa.jpg' alt='notebook'/>
                                 <div className='title-box'></div>
                                 <div className='name'>Placas de video</div> 
                             </div> 
@@ -78,7 +78,7 @@ export const ItemListContainer = () => {
                     <Link to="/notebooks">
                         <div className='content-show'>
                             <div>
-                                <img src='./img/notebook.jpg' alt='notebook'/>
+                                <img loading='lazy' src='./img/notebook.jpg' alt='notebook'/>
                                 <div className='title-box'></div>
                                 <div className='name'>Notebooks</div> 
                             </div>
