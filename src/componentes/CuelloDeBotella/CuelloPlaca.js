@@ -4,6 +4,7 @@ import { Dropdown } from 'react-bootstrap';
 import Accordion from 'react-bootstrap/Accordion';
 import { useAccordionButton } from 'react-bootstrap/AccordionButton';
 import Card from 'react-bootstrap/Card';
+import { HelmetProvider, Helmet } from 'react-helmet-async';
 
 
 function CustomToggle({ children, eventKey }) {
@@ -219,6 +220,12 @@ class CuelloPlaca extends React.Component {
 
     return (
       <div className="Container">
+        <HelmetProvider>
+          <Helmet>
+            <title>Tech View</title>
+            <meta name="description" content={`Descubre los 4 mejores procesadores compatibles para la placa de video que desees (Cuello de botella).`} />
+          </Helmet>
+        </HelmetProvider>
         <div className="CuelloBotellaProd">
           <div className="placa">
             <div className="cardH2">
