@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { ScrollToTop } from '../../routes/AppRouter';
 
 
 
@@ -7,6 +8,7 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 export const Procesadores = () => {
     return (
         <div className='Container'>
+            <ScrollToTop/>
             <HelmetProvider>
                 <Helmet>
                     <title>Tech View</title>

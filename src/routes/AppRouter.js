@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, Navigate, useLocation } from 'react-router-dom';
 import Procesadores from '../componentes/Procesador/Procesadores';
 import Placa from '../componentes/Placa/Placa';
 import CuelloDeBotella from '../componentes/CuelloDeBotella/CuelloDeBotella';
@@ -38,19 +38,31 @@ import MSIGS66Stealth, { Pregunta66S } from '../componentes/Notebook/MSIGS66Stea
 import RazerBlade15, { PreguntaB15 } from '../componentes/Notebook/RazerBlade15';
 import CuelloPlaca from '../componentes/CuelloDeBotella/CuelloPlaca';
 import CuelloProcesador from '../componentes/CuelloDeBotella/CuelloProcesador';
+import { useEffect } from 'react';
 
 
 
 
 
+export const ScrollToTop = () => {
+    const { pathname } = useLocation();
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
+
+    return null;
+}
 
 
 
 
 export const AppRouter = () => {
+    
+    
     return (
         <BrowserRouter>
+            
             <NavBar/>
             <Routes>
                 <Route path='/' element={<ItemListContainer/>}/>

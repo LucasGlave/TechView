@@ -1,19 +1,22 @@
 import './Placa.scss';
 import { Link } from 'react-router-dom';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { ScrollToTop } from '../../routes/AppRouter'; 
 
 
 
 
 export const Placa = () => {
     return (
+        
         <div className='Container'>
-        <HelmetProvider>
-            <Helmet>
-                <title>Tech View</title>
-                <meta name="description" content="Obtén soluciones y recomendaciones sobre placas de video en nuestra sección de preguntas y respuestas. Maximiza el rendimiento de tus juegos y proyectos de diseño con los consejos de nuestra comunidad." />
-            </Helmet>
-        </HelmetProvider>
+            <ScrollToTop/>
+            <HelmetProvider>
+                <Helmet>
+                    <title>Tech View</title>
+                    <meta name="description" content="Obtén soluciones y recomendaciones sobre placas de video en nuestra sección de preguntas y respuestas. Maximiza el rendimiento de tus juegos y proyectos de diseño con los consejos de nuestra comunidad." />
+                </Helmet>
+            </HelmetProvider>
             <div className='placa'>
                 <div className='cardH2'>
                     <h2>PLACAS DE VIDEO</h2>

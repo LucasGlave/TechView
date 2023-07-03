@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './CuelloDeBotella.scss';
+import { ScrollToTop } from '../../routes/AppRouter';
 
 
 
@@ -8,6 +9,7 @@ export const CuelloDeBotella = () => {
     
     return (
         <div className='Container'>
+            <ScrollToTop/>
             <div className='CuelloDeBotella'>
                 {/* <div className='notebook'> */}
                     <div className='placa'>

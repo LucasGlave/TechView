@@ -5,6 +5,7 @@ import Accordion from 'react-bootstrap/Accordion';
 import { useAccordionButton } from 'react-bootstrap/AccordionButton';
 import Card from 'react-bootstrap/Card';
 import { HelmetProvider, Helmet } from 'react-helmet-async';
+import { ScrollToTop } from '../../routes/AppRouter';
 
 
 function CustomToggle({ children, eventKey }) {
@@ -219,7 +220,8 @@ class CuelloPlaca extends React.Component {
     const { placaVideoSeleccionada, procesadoresRecomendados, showProcesadores } = this.state;
 
     return (
-      <div className="Container">
+      <div id='cont' className="Container">
+        <ScrollToTop/>
         <HelmetProvider>
           <Helmet>
             <title>Tech View</title>

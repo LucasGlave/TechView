@@ -1,12 +1,14 @@
 import { Link } from 'react-router-dom';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import './Notebook.scss';
+import { ScrollToTop } from '../../routes/AppRouter';
 
 
 
 export const Notebook = () => {
     return (
         <div className='Container'>
+            <ScrollToTop/>
             <HelmetProvider>
                 <Helmet>
                     <title>Tech View</title>
