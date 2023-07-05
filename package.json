@@ -29,6 +29,7 @@
     "react-transition-group": "^4.4.5",
     "sass": "^1.58.3",
     "simple": "^0.2.0",
+    "sitemaps": "^2.0.4",
     "stream-browserify": "^3.0.0",
     "stream-http": "^3.2.0",
     "url": "^0.11.0",

@@ -39,7 +39,7 @@ import RazerBlade15, { PreguntaB15 } from '../componentes/Notebook/RazerBlade15'
 import CuelloPlaca from '../componentes/CuelloDeBotella/CuelloPlaca';
 import CuelloProcesador from '../componentes/CuelloDeBotella/CuelloProcesador';
 import { useEffect } from 'react';
-
+import CreateSitemap from '../componentes/CreateSitemap';
 
 
 
@@ -54,6 +54,12 @@ export const ScrollToTop = () => {
     return null;
 }
 
+
+const SitemapGenerator = () => {
+    useEffect(() => {
+        CreateSitemap();
+    }, []);
+}
 
 
 

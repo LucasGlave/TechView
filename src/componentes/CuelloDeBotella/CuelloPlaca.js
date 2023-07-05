@@ -337,6 +337,17 @@ class CuelloPlaca extends React.Component {
               </div>
             )}
             <div className="volverEntrar">
+              <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4820714602088067"
+                  crossorigin="anonymous"></script>
+              <ins class="adsbygoogle"
+                  style="display:block"
+                  data-ad-format="fluid"
+                  data-ad-layout-key="-6t+ed+2i-1n-4w"
+                  data-ad-client="ca-pub-4820714602088067"
+                  data-ad-slot="5463553704"></ins>
+              <script>
+                  (adsbygoogle = window.adsbygoogle || []).push({});
+              </script>
               <div className="volver">
                 <div className="cuello">
                   <h4>Estas recomendaciones tienen en cuenta el equilibrio entre el rendimiento del procesador y la placa de video en juegos y aplicaciones exigentes.</h4>
